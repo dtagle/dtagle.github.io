@@ -1,13 +1,11 @@
-<h1 align="center">Basic historical price charts with D3.js</h1>
+## Bienvenido al sitio de prácticas de ADDST 
 
-### Basic Setup
+El objetivo de este sitio es guardar las visualizaciones que se generen para la materia de "Herramientas de Visualización"
 
-1.  `git clone https://github.com/wentjun/d3-historical-price-chart-basic`
+### Práctica 1 - Gráficos con D3
 
-2.  `npm i`
+En esta actividad tenemos que modificar algún gráfico, y aplicarlo a un conjunto de datos propio. La calificación será en función de la modificación o ampliación del código que realice.
 
-3.  `http-server docs`
-
-Check out the full tutorial over <a href="https://medium.freecodecamp.org/how-to-build-historical-price-charts-with-d3-js-72214aaf6ba3" target="_blank">here</a>! 
-
-The main <a href="https://github.com/wentjun/d3-historical-prices">repository</a> contains the full version of this web application, which has more features.
+```markdown
+# La siguiente liga los llevará  al avisualización propuesta:
+[Visualización del INPC](https://dtagle.github.io/docs/)
