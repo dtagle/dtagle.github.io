@@ -82,7 +82,7 @@ function render(data) {
           .style('x', d => x(d.estado) + 'px')
           .style('y', d => (y(d[metrica])) + 'px')
           .style('height', d => (alto - y(d[metrica])) + 'px')
-          .style('fill', d => color(d.ap16))
+          .style('fill', d => color(d.ap))
           .style('width', d => `${x.bandwidth()}px`)
 
   bars.exit()
