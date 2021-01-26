@@ -53,9 +53,9 @@ dataArray = []
 // (1) Variables globales para determinar que mostrar y
 //     poder obtener los datos del select
 region = 'todas'
-regionSelect = d3.select('#region')
+regionSelect = d3.select('#Ciudad')
 
-metrica = 'oficial'
+metrica = 'indice'
 metricaSelect = d3.select('#metrica')
 
 ascendente = false
@@ -65,7 +65,7 @@ function render(data) {
   // function(d, i) { return d }
   // (d, i) => d
   bars = g.selectAll('rect')
-            .data(data, d => d.edificio)
+            .data(data, d => d.AP16)
 
   bars.enter()
       .append('rect')
@@ -73,13 +73,13 @@ function render(data) {
         .style('height', '0px')
         .style('y', `${y(0)}px`)
         .style('fill', '#000')
-        .style('x', d => x(d.edificio) + 'px')
+        .style('x', d => x(d.AP16) + 'px')
       .merge(bars)
         .transition()
         // https://bl.ocks.org/d3noob/1ea51d03775b9650e8dfd03474e202fe
         // .ease(d3.easeElastic)
         .duration(2000)
-          .style('x', d => x(d.edificio) + 'px')
+          .style('x', d => x(d.AP16) + 'px')
           .style('y', d => (y(d[metrica])) + 'px')
           .style('height', d => (alto - y(d[metrica])) + 'px')
           .style('fill', d => color(d.region))
@@ -96,7 +96,7 @@ function render(data) {
 
   yAxisCall = d3.axisLeft(y)
                 .ticks(3)
-                .tickFormat(d => d + ((metrica == 'oficial') ? 'm.' : ''))
+                .tickFormat(d => d + ((metrica == 'indice') ? 'm.' : ''))
   yAxisGroup.transition()
             .duration(2000)
             .call(yAxisCall)
@@ -113,20 +113,18 @@ function render(data) {
 }
 
 // IV. Carga de datos
-d3.csv('edificios.csv')
+d3.csv('indices.csv')
 .then(function(data) {
   data.forEach(d => {
-    d.oficial = +d.oficial
-    d.ano = +d.ano
-    d.antena = +d.antena
-    d.piso = +d.piso
-    d.ultimopiso = +d.ultimopiso
-    d.puesto = +d.puesto
+    d.indice = +d.indice
+    d.variacion= +d.variacion
+    d.variacion_anual = +d.variacion_anual
+    d.peso_100 = +d.peso_100
   })
 
   dataArray = data
 
-  color.domain(data.map(d => d.region))
+  color.domain(data.map(d => d.Estado))
 
   // <select>
   //   <option value="x">despliega</option>
@@ -151,7 +149,7 @@ d3.csv('edificios.csv')
 function frame() {
   dataframe = dataArray
   if (region != 'todas') {
-    dataframe = d3.filter(dataArray, d => d.region == region)
+    dataframe = d3.filter(dataArray, d => d.Ciudad == Ciudad)
   }
 
   dataframe.sort((a, b) => {
@@ -168,7 +166,7 @@ function frame() {
   // Creamos una función para calcular la altura
   // de las barras y que quepan en nuestro canvas
   y.domain([0, maxy])
-  x.domain(dataframe.map(d => d.edificio))
+  x.domain(dataframe.map(d => d.AP16))
 
   render(dataframe)
 }
