@@ -160,10 +160,10 @@ function frame() {
     // return ascendente ? a[metrica] - b[metrica] : b[metrica] - a[metrica]
   })
 
-  // Calcular la altura más alta dentro de
-  // los datos (columna "oficial")
+  // Calcular el mayor índice en
+  // los datos (columna "indice")
   maxy = d3.max(dataframe, d => d[metrica])
-  // Creamos una función para calcular la altura
+  // Creamos una función para calcular el indice
   // de las barras y que quepan en nuestro canvas
   y.domain([0, maxy])
   x.domain(dataframe.map(d => d.estado))
