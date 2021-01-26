@@ -52,7 +52,7 @@ dataArray = []
 
 // (1) Variables globales para determinar que mostrar y
 //     poder obtener los datos del select
-ap = 'todas'
+ap = 'Subyacente'
 apSelect = d3.select('#ap')
 
 metrica = 'indice'
@@ -130,8 +130,8 @@ d3.csv('indices.csv')
   //   <option value="x">despliega</option>
   // </select>
   apSelect.append('option')
-              .attr('value', 'todas')
-              .text('Todas')
+              .attr('value', 'Subyacente')
+              .text('D.F')
   color.domain().forEach(d => {
     console.log(d)
     apSelect.append('option')
@@ -148,7 +148,7 @@ d3.csv('indices.csv')
 
 function frame() {
   dataframe = dataArray
-  if (ap != 'todas') {
+  if (ap != 'Subyacente') {
     dataframe = d3.filter(dataArray, d => d.ap == ap)
   }
 
