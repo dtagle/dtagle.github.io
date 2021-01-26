@@ -131,7 +131,7 @@ d3.csv('indices.csv')
   // </select>
   apSelect.append('option')
               .attr('value', 'Subyacente')
-              .text('D.F')
+              .text('Subyacente')
   color.domain().forEach(d => {
     console.log(d)
     apSelect.append('option')
