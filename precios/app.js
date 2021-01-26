@@ -52,8 +52,8 @@ dataArray = []
 
 // (1) Variables globales para determinar que mostrar y
 //     poder obtener los datos del select
-region = 'todas'
-regionSelect = d3.select('#AP16')
+ap16 = 'todas'
+ap16Select = d3.select('#ap16')
 
 metrica = 'indice'
 metricaSelect = d3.select('#metrica')
@@ -65,7 +65,7 @@ function render(data) {
   // function(d, i) { return d }
   // (d, i) => d
   bars = g.selectAll('rect')
-            .data(data, d => d.Estado)
+            .data(data, d => d.estado)
 
   bars.enter()
       .append('rect')
@@ -73,16 +73,16 @@ function render(data) {
         .style('height', '0px')
         .style('y', `${y(0)}px`)
         .style('fill', '#000')
-        .style('x', d => x(d.Estado) + 'px')
+        .style('x', d => x(d.estado) + 'px')
       .merge(bars)
         .transition()
         // https://bl.ocks.org/d3noob/1ea51d03775b9650e8dfd03474e202fe
         // .ease(d3.easeElastic)
         .duration(2000)
-          .style('x', d => x(d.AP16) + 'px')
+          .style('x', d => x(d.estado) + 'px')
           .style('y', d => (y(d[metrica])) + 'px')
           .style('height', d => (alto - y(d[metrica])) + 'px')
-          .style('fill', d => color(d.region))
+          .style('fill', d => color(d.ap16))
           .style('width', d => `${x.bandwidth()}px`)
 
   bars.exit()
@@ -124,7 +124,7 @@ d3.csv('indices.csv')
 
   dataArray = data
 
-  color.domain(data.map(d => d.Estado))
+  color.domain(data.map(d => d.ap16))
 
   // <select>
   //   <option value="x">despliega</option>
@@ -149,7 +149,7 @@ d3.csv('indices.csv')
 function frame() {
   dataframe = dataArray
   if (region != 'todas') {
-    dataframe = d3.filter(dataArray, d => d.AP16 == AP16)
+    dataframe = d3.filter(dataArray, d => d.ap16 == ap16)
   }
 
   dataframe.sort((a, b) => {
@@ -166,7 +166,7 @@ function frame() {
   // Creamos una función para calcular la altura
   // de las barras y que quepan en nuestro canvas
   y.domain([0, maxy])
-  x.domain(dataframe.map(d => d.AP16))
+  x.domain(dataframe.map(d => d.estado))
 
   render(dataframe)
 }
