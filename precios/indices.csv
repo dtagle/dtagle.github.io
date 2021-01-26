@@ -1,4 +1,4 @@
-puesto,estado,ciudad,ap16,indice,variacion,variacion_anual,peso_1,peso_100
+puesto,estado,ciudad,ap,indice,variacion,variacion_anual,peso_1,peso_100
 1,D.F,Área Met. de la Cd. de México,Subyacente,109.021,0.13,2.99,0.1734,17.34
 2,D.F,Área Met. de la Cd. de México,Servicios,107.8,-0.07,1.9,0.0957,9.57
 3,D.F,Área Met. de la Cd. de México,Mercancías,110.525,0.37,4.35,0.0777,7.77
