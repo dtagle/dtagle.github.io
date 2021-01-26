@@ -33,7 +33,7 @@ x = d3.scaleBand()
 color = d3.scaleOrdinal()
           // .range(['red', 'green', 'blue', 'yellow'])
           // https://bl.ocks.org/pstuffa/3393ff2711a53975040077b7453781a9
-          .range(d3.schemeDark2)
+          .range(d3.schemeCategory20b)
 
 xAxisGroup = g.append('g')
               .attr('transform', `translate(0, ${ alto })`)
@@ -45,7 +45,7 @@ titulo = g.append('text')
           .attr('x', `${ancho / 2}px`)
           .attr('y', '-5px')
           .attr('text-anchor', 'middle')
-          .text('Los Edificios Más Grandes del Mundo')
+          .text('Indicadores del Indice Nacional de Precios al Consumidor')
           .attr('class', 'titulo-grafica')
 
 dataArray = []
