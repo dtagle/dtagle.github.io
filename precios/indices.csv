@@ -1,0 +1,826 @@
+puesto,Estado,Ciudad,AP16,indice,variacion,variacion_anual,peso_1,peso_100
+1,D.F,Área Met. de la Cd. de México,Subyacente,109.021,0.13,2.99,0.1734,17.34
+2,D.F,Área Met. de la Cd. de México,Servicios,107.8,-0.07,1.9,0.0957,9.57
+3,D.F,Área Met. de la Cd. de México,Mercancías,110.525,0.37,4.35,0.0777,7.77
+4,D.F,Área Met. de la Cd. de México,No Subyacente,109.768,1.73,2.81,0.0515,5.15
+5,D.F,Área Met. de la Cd. de México,Otros servicios,106.847,-0.22,1.77,0.0434,4.34
+6,D.F,Área Met. de la Cd. de México,Vivienda,107.681,0.08,1.93,0.0427,4.27
+7,JALISCO,"Guadalajara, Jal.",Subyacente,109.728,0.16,4.28,0.0398,3.98
+8,D.F,Área Met. de la Cd. de México,Mercancías no alimenticias,107.667,0.09,3.29,0.0394,3.94
+9,D.F,Área Met. de la Cd. de México,Alimentos,113.473,0.65,5.4,0.0382,3.82
+10,NUEVO LEON,"Monterrey, N.L.",Subyacente,108.624,0.02,2.93,0.037,3.7
+11,D.F,Área Met. de la Cd. de México,Energéticos y Tarifas Autorizadas por el Gobierno,106.341,3.15,2.83,0.0274,2.74
+12,PUEBLA,"Puebla, Pue.",Subyacente,110.783,0.46,3.55,0.027,2.7
+13,VERACRUZ,"Córdoba, Ver.",Subyacente,110.754,0.25,4.19,0.0256,2.56
+14,D.F,Área Met. de la Cd. de México,Agropecuarios,113.667,0.25,2.79,0.0241,2.41
+15,GUANAJUATO,"Cortazar, Gto.",Subyacente,108.749,0.22,3.24,0.021,2.1
+16,SINALOA,"Culiacán, Sin.",Subyacente,109.66,0.69,3.96,0.0206,2.06
+17,JALISCO,"Guadalajara, Jal.",Servicios,108.035,0.09,2.66,0.0201,2.01
+18,JALISCO,"Guadalajara, Jal.",Mercancías,111.451,0.23,5.93,0.0197,1.97
+19,NUEVO LEON,"Monterrey, N.L.",Mercancías,111.124,0.14,4.65,0.0189,1.89
+20,NUEVO LEON,"Monterrey, N.L.",Servicios,106.025,-0.1,1.12,0.0181,1.81
+21,D.F,Área Met. de la Cd. de México,Energéticos,107.035,4.77,2.74,0.0172,1.72
+22,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Subyacente,111.001,0.4,4.51,0.0166,1.66
+23,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Subyacente,108.521,0.34,3.53,0.016,1.6
+24,GUANAJUATO,"León, Gto.",Subyacente,107.932,0.22,3.15,0.0151,1.51
+25,VERACRUZ,"Córdoba, Ver.",Mercancías,113.743,0.35,5.83,0.0146,1.46
+26,BAJA CALIFORNIA,"Tijuana, B.C.",Subyacente,110.945,0.44,5.81,0.0144,1.44
+27,JALISCO,"Tepatitlán, Jal.",Subyacente,110.37,0.93,4.09,0.0135,1.35
+28,MICHOACAN,"Jacona, Mich.",Subyacente,111.139,0.76,5.14,0.0135,1.35
+29,OAXACA,"Oaxaca, Oax.",Subyacente,109.891,0.54,3.98,0.0135,1.35
+30,PUEBLA,"Puebla, Pue.",Mercancías,112.69,0.46,5.45,0.0135,1.35
+31,PUEBLA,"Puebla, Pue.",Servicios,108.882,0.45,1.65,0.0135,1.35
+32,QUERETARO,"Querétaro, Qro.",Subyacente,110.898,0.29,4.08,0.0135,1.35
+33,BAJA CALIFORNIA,"Mexicali, B.C.",Subyacente,108.461,0.12,4.51,0.0131,1.31
+34,TABASCO,"Villahermosa, Tab.",Subyacente,109.597,0.28,3.83,0.0131,1.31
+35,YUCATAN,"Mérida, Yuc.",Subyacente,110.048,0.41,3.94,0.0131,1.31
+36,TAMAULIPAS,"Tampico, Tamps.",Subyacente,108.65,0.32,3.7,0.0129,1.29
+37,D.F,Área Met. de la Cd. de México,Resto de Agropecuarios,117.389,0.55,12.46,0.0128,1.28
+38,NUEVO LEON,"Monterrey, N.L.",No Subyacente,110.934,0.98,0.37,0.0125,1.25
+39,SINALOA,"Culiacán, Sin.",Mercancías,110.73,0.82,4.83,0.012,1.2
+40,JALISCO,"Guadalajara, Jal.",No Subyacente,110.945,2.31,2.9,0.0115,1.15
+41,MORELOS,"Cuernavaca, Mor.",Subyacente,109.389,-0.01,3.48,0.0114,1.14
+42,D.F,Área Met. de la Cd. de México,Frutas y Verduras,109.46,-0.12,-6.91,0.0113,1.13
+43,VERACRUZ,"Córdoba, Ver.",Servicios,106.83,0.11,1.98,0.0111,1.11
+44,GUANAJUATO,"Cortazar, Gto.",Mercancías,111.727,0.23,5.65,0.0109,1.09
+45,HIDALGO,"Pachuca, Hgo.",Subyacente,109.226,0.39,3.65,0.0109,1.09
+46,SONORA,"Hermosillo, Son.",Subyacente,108.99,0.37,4,0.0109,1.09
+47,JALISCO,"Guadalajara, Jal.",Alimentos,115.477,0.65,6.31,0.0102,1.02
+48,MICHOACAN,"Morelia, Mich.",Subyacente,108.565,0.19,3.79,0.0102,1.02
+49,NUEVO LEON,"Monterrey, N.L.",Alimentos,113.992,0.07,6.26,0.0102,1.02
+50,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Subyacente,110.981,0.17,4.95,0.0101,1.01
+51,D.F,Área Met. de la Cd. de México,Tarifas Autorizadas por Gobierno,105.161,0.48,3,0.0101,1.01
+52,GUANAJUATO,"Cortazar, Gto.",Servicios,105.541,0.21,0.63,0.0101,1.01
+53,D.F,Área Met. de la Cd. de México,Educación,112.66,-0.03,2.3,0.0096,0.96
+54,JALISCO,"Guadalajara, Jal.",Mercancías no alimenticias,107.125,-0.25,5.49,0.0095,0.95
+55,JALISCO,"Guadalajara, Jal.",Otros servicios,108.1,0.02,2.31,0.0095,0.95
+56,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Mercancías,112.185,0.45,5.61,0.0092,0.92
+57,CHIHUAHUA,"Cd. Juárez, Chih.",Subyacente,109.038,0.13,3.86,0.0089,0.89
+58,PUEBLA,"Puebla, Pue.",No Subyacente,111.121,1.97,0.54,0.0089,0.89
+59,COAHUILA,"Torreón, Coah.",Subyacente,112.117,0.49,5.29,0.0088,0.88
+60,NUEVO LEON,"Monterrey, N.L.",Mercancías no alimenticias,107.764,0.24,2.72,0.0087,0.87
+61,JALISCO,"Guadalajara, Jal.",Vivienda,106.394,0.19,2.65,0.0086,0.86
+62,SINALOA,"Culiacán, Sin.",Servicios,108.178,0.51,2.76,0.0086,0.86
+63,TAMAULIPAS,"Matamoros, Tamps.",Subyacente,109.603,0.7,3.97,0.0084,0.84
+64,NUEVO LEON,"Monterrey, N.L.",Otros servicios,106.488,-0.31,1.35,0.0083,0.83
+65,VERACRUZ,"Veracruz, Ver.",Subyacente,107.928,0.17,3.43,0.0083,0.83
+66,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Servicios,106.282,-0.07,1.96,0.0082,0.82
+67,AGUASCALIENTES,"Aguascalientes, Ags.",Subyacente,110.177,0.07,3.4,0.008,0.8
+68,GUANAJUATO,"León, Gto.",Mercancías,109.901,0.33,5.31,0.008,0.8
+69,VERACRUZ,"Córdoba, Ver.",Mercancías no alimenticias,111.032,0.38,4.09,0.008,0.8
+70,CHIHUAHUA,"Chihuahua, Chih.",Subyacente,110.276,0.32,4.65,0.0079,0.79
+71,NUEVO LEON,"Monterrey, N.L.",Vivienda,104.464,0.09,0.74,0.0079,0.79
+72,NUEVO LEON,"Monterrey, N.L.",Energéticos y Tarifas Autorizadas por el Gobierno,112.011,1.36,0.03,0.0079,0.79
+73,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Mercancías,110.848,0.75,5.14,0.0078,0.78
+74,JALISCO,"Tepatitlán, Jal.",Mercancías,111.349,0.78,5.06,0.0078,0.78
+75,NAYARIT,"Tepic, Nay.",Subyacente,108.67,0.41,3.81,0.0078,0.78
+76,BAJA CALIFORNIA,"Tijuana, B.C.",Servicios,109.301,0.09,4.05,0.0077,0.77
+77,QUINTANAROO,"Cancún, Q. Roo.",Subyacente,108.677,0,2.2,0.0077,0.77
+78,VERACRUZ,"Córdoba, Ver.",No Subyacente,110.282,2.13,3.65,0.0077,0.77
+79,YUCATAN,"Mérida, Yuc.",Mercancías,110.77,0.88,5.59,0.0077,0.77
+80,GUERRERO,"Iguala, Gro.",Subyacente,110.866,0.86,5.73,0.0076,0.76
+81,OAXACA,"Oaxaca, Oax.",Mercancías,111.778,0.47,5.31,0.0076,0.76
+82,TABASCO,"Villahermosa, Tab.",Mercancías,112.414,0.51,5.73,0.0075,0.75
+83,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Servicios,109.523,0.33,3.13,0.0074,0.74
+84,MICHOACAN,"Jacona, Mich.",Mercancías,112.335,0.7,6.19,0.0073,0.73
+85,GUANAJUATO,"León, Gto.",Servicios,105.729,0.09,0.74,0.0071,0.71
+86,DURANGO,"Durango, Dgo.",Subyacente,110.448,0.31,4.59,0.007,0.7
+87,COAHUILA,"Saltillo, Coah.",Subyacente,109.348,-0.05,3.95,0.0069,0.69
+88,BAJA CALIFORNIA,"Mexicali, B.C.",Mercancías,110.272,-0.17,6.24,0.0068,0.68
+89,COAHUILA,"Cd. Acuña, Coah.",Subyacente,109.668,0.12,4.8,0.0068,0.68
+90,PUEBLA,"Puebla, Pue.",Mercancías no alimenticias,109.709,0.13,3.73,0.0068,0.68
+91,QUERETARO,"Querétaro, Qro.",Mercancías,113.396,0.63,5.03,0.0068,0.68
+92,TAMAULIPAS,"Tampico, Tamps.",Mercancías,110.7,0.52,4.93,0.0068,0.68
+93,CHIAPAS,"Tapachula, Chis.",Subyacente,111.754,-0.09,4.84,0.0067,0.67
+94,QUERETARO,"Querétaro, Qro.",Servicios,108.376,-0.07,3.09,0.0067,0.67
+95,BAJA CALIFORNIA,"Tijuana, B.C.",Mercancías,112.868,0.84,7.86,0.0066,0.66
+96,PUEBLA,"Puebla, Pue.",Alimentos,115.762,0.78,7.2,0.0066,0.66
+97,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",No Subyacente,108.59,2.39,1.71,0.0065,0.65
+98,PUEBLA,"Puebla, Pue.",Otros servicios,109.652,0.87,1.91,0.0065,0.65
+99,SINALOA,"Culiacán, Sin.",Alimentos,112.149,0.72,5.15,0.0065,0.65
+100,SINALOA,"Culiacán, Sin.",No Subyacente,122.11,1.44,0.98,0.0065,0.65
+101,VERACRUZ,"Córdoba, Ver.",Alimentos,117.066,0.32,7.92,0.0065,0.65
+102,VERACRUZ,"Coatzacoalcos, Ver.",Subyacente,108.358,0.37,3.73,0.0065,0.65
+103,GUANAJUATO,"Cortazar, Gto.",No Subyacente,108.794,1.33,2.58,0.0064,0.64
+104,BAJA CALIFORNIA,"Mexicali, B.C.",Servicios,106.496,0.45,2.64,0.0063,0.63
+105,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Mercancías,114.396,0.25,7.14,0.0063,0.63
+106,JALISCO,"Guadalajara, Jal.",Energéticos y Tarifas Autorizadas por el Gobierno,106.597,3.01,2.62,0.0063,0.63
+107,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Subyacente,109.823,0.01,3.94,0.0061,0.61
+108,MICHOACAN,"Jacona, Mich.",Servicios,109.712,0.83,3.88,0.0061,0.61
+109,OAXACA,"Tehuantepec, Oax.",Subyacente,111.354,0.69,3.41,0.006,0.6
+110,PUEBLA,"Izúcar de Matamoros, Pue.",Subyacente,107.759,0.38,3.15,0.006,0.6
+111,TAMAULIPAS,"Tampico, Tamps.",Servicios,106.336,0.09,2.29,0.006,0.6
+112,TLAXCALA,"Tlaxcala, Tlax.",Subyacente,109.102,0.28,3.63,0.006,0.6
+113,VERACRUZ,"San Andrés Tuxtla, Ver.",Subyacente,110.64,0.45,4.8,0.006,0.6
+114,BAJA CALIFORNIA,"Tijuana, B.C.",No Subyacente,103.846,2.5,1.38,0.0059,0.59
+115,GUERRERO,"Acapulco, Gro.",Subyacente,110.654,0.27,4.63,0.0059,0.59
+116,OAXACA,"Oaxaca, Oax.",Servicios,107.475,0.63,2.25,0.0059,0.59
+117,SONORA,"Hermosillo, Son.",Mercancías,110.887,0.6,5.31,0.0059,0.59
+118,CAMPECHE,"Campeche, Camp.",Subyacente,109.829,0.17,3.21,0.0058,0.58
+119,MORELOS,"Cuernavaca, Mor.",Mercancías,112.767,0.17,5.14,0.0058,0.58
+120,GUANAJUATO,"Cortazar, Gto.",Alimentos,114.462,0.41,5.64,0.0057,0.57
+121,JALISCO,"Tepatitlán, Jal.",Servicios,109.04,1.13,2.78,0.0057,0.57
+122,HIDALGO,"Pachuca, Hgo.",Mercancías,111.385,0.71,6.03,0.0056,0.56
+123,MORELOS,"Cuernavaca, Mor.",Servicios,105.862,-0.21,1.7,0.0056,0.56
+124,TABASCO,"Villahermosa, Tab.",Servicios,105.834,-0.04,1.24,0.0056,0.56
+125,COLIMA,"Colima, Col.",Subyacente,110.127,0.54,4.74,0.0055,0.55
+126,MICHOACAN,"Morelia, Mich.",Mercancías,110.927,0.28,5.56,0.0055,0.55
+127,NUEVO LEON,"Monterrey, N.L.",Energéticos,114.712,1.89,-0.64,0.0055,0.55
+128,SINALOA,"Culiacán, Sin.",Mercancías no alimenticias,109.069,0.94,4.44,0.0055,0.55
+129,BAJA CALIFORNIA,"Mexicali, B.C.",No Subyacente,120.161,1.92,0.15,0.0054,0.54
+130,YUCATAN,"Mérida, Yuc.",Servicios,109.016,-0.25,1.64,0.0054,0.54
+131,GUANAJUATO,"León, Gto.",No Subyacente,107.127,2.23,-1.09,0.0053,0.53
+132,HIDALGO,"Pachuca, Hgo.",Servicios,106.951,0.04,1.16,0.0053,0.53
+133,PUEBLA,"Puebla, Pue.",Vivienda,107.539,-0.01,2.14,0.0053,0.53
+134,GUANAJUATO,"Cortazar, Gto.",Mercancías no alimenticias,108.765,0.02,5.67,0.0052,0.52
+135,JALISCO,"Guadalajara, Jal.",Agropecuarios,116.239,1.54,3.21,0.0052,0.52
+136,PUEBLA,"Puebla, Pue.",Energéticos y Tarifas Autorizadas por el Gobierno,110.627,3.19,1.76,0.0052,0.52
+137,VERACRUZ,"Córdoba, Ver.",Otros servicios,108.643,-0.16,1.84,0.0052,0.52
+138,VERACRUZ,"Córdoba, Ver.",Vivienda,104.687,0.42,2.4,0.0051,0.51
+139,COAHUILA,"Torreón, Coah.",Mercancías,114.103,0.48,6.72,0.005,0.5
+140,SONORA,"Hermosillo, Son.",Servicios,106.748,0.09,2.44,0.005,0.5
+141,TABASCO,"Villahermosa, Tab.",No Subyacente,115.491,1.08,4.57,0.005,0.5
+142,GUANAJUATO,"Cortazar, Gto.",Otros servicios,104.393,0.44,0.14,0.0049,0.49
+143,CHIHUAHUA,"Cd. Juárez, Chih.",Mercancías,110.222,0.21,4.05,0.0048,0.48
+144,MICHOACAN,"Morelia, Mich.",Servicios,105.854,0.09,1.74,0.0048,0.48
+145,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",No Subyacente,109.36,2.25,2.1,0.0048,0.48
+146,SONORA,"Esperanza, Son.",Subyacente,107.566,0.59,4.11,0.0048,0.48
+147,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Alimentos,116.916,0.95,7.47,0.0047,0.47
+148,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Subyacente,107.978,0.06,3.81,0.0046,0.46
+149,JALISCO,"Guadalajara, Jal.",Energéticos,100.452,3.69,-2.21,0.0046,0.46
+150,NUEVO LEON,"Monterrey, N.L.",Agropecuarios,109.058,0.31,0.98,0.0046,0.46
+151,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Mercancías no alimenticias,107.328,-0.11,3.62,0.0046,0.46
+152,SINALOA,"Culiacán, Sin.",Otros servicios,107.848,0.71,3.01,0.0046,0.46
+153,YUCATAN,"Mérida, Yuc.",Alimentos,111.905,0.93,6,0.0046,0.46
+154,CHIHUAHUA,"Jiménez, Chih.",Subyacente,109.523,0.23,4.06,0.0045,0.45
+155,GUANAJUATO,"León, Gto.",Alimentos,111.124,0.41,6.14,0.0045,0.45
+156,GUERRERO,"Iguala, Gro.",Mercancías,112.802,1.15,6.31,0.0045,0.45
+157,OAXACA,"Oaxaca, Oax.",No Subyacente,108.797,0.83,0.9,0.0045,0.45
+158,BAJA CALIFORNIA,"Tijuana, B.C.",Energéticos y Tarifas Autorizadas por el Gobierno,99.541,3.72,0.05,0.0044,0.44
+159,CHIAPAS,"Tapachula, Chis.",Mercancías,112.887,-0.02,5.37,0.0044,0.44
+160,TAMAULIPAS,"Matamoros, Tamps.",Mercancías,112.07,0.78,5.43,0.0044,0.44
+161,VERACRUZ,"Veracruz, Ver.",Mercancías,109.761,0.35,5.03,0.0044,0.44
+162,VERACRUZ,"Córdoba, Ver.",Energéticos y Tarifas Autorizadas por el Gobierno,104.958,2.77,2.75,0.0044,0.44
+163,AGUASCALIENTES,"Aguascalientes, Ags.",Mercancías,112.437,0.36,4.92,0.0043,0.43
+164,DURANGO,"Durango, Dgo.",Mercancías,113.237,0.55,6.65,0.0043,0.43
+165,MICHOACAN,"Jacona, Mich.",No Subyacente,109.78,1.51,1.94,0.0043,0.43
+166,NAYARIT,"Tepic, Nay.",Mercancías,110.366,0.52,4.57,0.0043,0.43
+167,SINALOA,"Culiacán, Sin.",Energéticos y Tarifas Autorizadas por el Gobierno,126.792,2.75,-0.77,0.0042,0.42
+168,SONORA,"Huatabampo, Son.",Subyacente,108.299,0.15,2.73,0.0042,0.42
+169,CHIHUAHUA,"Cd. Juárez, Chih.",Servicios,107.646,0.04,3.63,0.0041,0.41
+170,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Alimentos,113.264,0.54,5.65,0.0041,0.41
+171,JALISCO,"Tepatitlán, Jal.",Alimentos,115.16,0.63,6.3,0.0041,0.41
+172,OAXACA,"Oaxaca, Oax.",Alimentos,113.437,0.2,5.75,0.0041,0.41
+173,ZACATECAS,"Fresnillo, Zac.",Subyacente,110.445,0.23,4.2,0.0041,0.41
+174,CHIAPAS,"Tuxtla Gutiérrez, Chis.",No Subyacente,108.876,1.94,5.37,0.004,0.4
+175,CHIHUAHUA,"Chihuahua, Chih.",Servicios,108.004,0.12,3.47,0.004,0.4
+176,HIDALGO,"Pachuca, Hgo.",No Subyacente,108.036,2.93,2.16,0.004,0.4
+177,MICHOACAN,"Morelia, Mich.",No Subyacente,105.761,2.56,0.97,0.004,0.4
+178,TAMAULIPAS,"Tampico, Tamps.",No Subyacente,112.867,2.23,2.8,0.004,0.4
+179,TAMAULIPAS,"Matamoros, Tamps.",Servicios,106.877,0.61,2.32,0.004,0.4
+180,BAJA CALIFORNIA,"Mexicali, B.C.",Energéticos y Tarifas Autorizadas por el Gobierno,122.724,2.54,-0.75,0.0039,0.39
+181,CHIHUAHUA,"Chihuahua, Chih.",Mercancías,112.57,0.51,5.83,0.0039,0.39
+182,COAHUILA,"Saltillo, Coah.",Mercancías,111.567,0.09,5.49,0.0039,0.39
+183,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Energéticos y Tarifas Autorizadas por el Gobierno,108.614,3.22,1.09,0.0039,0.39
+184,GUANAJUATO,"Cortazar, Gto.",Energéticos y Tarifas Autorizadas por el Gobierno,103.02,2.95,-0.07,0.0039,0.39
+185,JALISCO,"Tepatitlán, Jal.",No Subyacente,109.942,1.63,2.37,0.0039,0.39
+186,OAXACA,"Tehuantepec, Oax.",Mercancías,114.481,0.96,5.41,0.0039,0.39
+187,QUINTANAROO,"Cancún, Q. Roo.",Mercancías,110.365,0.23,3.53,0.0039,0.39
+188,VERACRUZ,"Veracruz, Ver.",Servicios,105.897,-0.04,1.65,0.0039,0.39
+189,BAJA CALIFORNIA,"Tijuana, B.C.",Otros servicios,110.061,0.06,4.63,0.0038,0.38
+190,COAHUILA,"Torreón, Coah.",Servicios,109.532,0.5,3.42,0.0038,0.38
+191,GUANAJUATO,"Cortazar, Gto.",Vivienda,104.551,0,1.65,0.0038,0.38
+192,MICHOACAN,"Jacona, Mich.",Alimentos,117.798,0.43,7.97,0.0038,0.38
+193,PUEBLA,"Puebla, Pue.",Agropecuarios,111.795,0.36,-1.06,0.0038,0.38
+194,QUERETARO,"Querétaro, Qro.",No Subyacente,111.067,2.2,-0.17,0.0038,0.38
+195,QUINTANAROO,"Chetumal, Q. Roo.",Subyacente,109.2,0.5,3.93,0.0038,0.38
+196,QUINTANAROO,"Cancún, Q. Roo.",Servicios,106.963,-0.24,0.85,0.0038,0.38
+197,TABASCO,"Villahermosa, Tab.",Mercancías no alimenticias,110.319,0.7,5.31,0.0038,0.38
+198,AGUASCALIENTES,"Aguascalientes, Ags.",Servicios,107.567,-0.27,1.61,0.0037,0.37
+199,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Servicios,105.228,0.03,1.17,0.0037,0.37
+200,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Mercancías no alimenticias,108.181,0.99,4.54,0.0037,0.37
+201,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Vivienda,102.975,0,0.2,0.0037,0.37
+202,JALISCO,"Tepatitlán, Jal.",Mercancías no alimenticias,107.193,0.96,3.63,0.0037,0.37
+203,MORELOS,"Cuernavaca, Mor.",No Subyacente,108.104,2.01,1.86,0.0037,0.37
+204,SONORA,"Hermosillo, Son.",No Subyacente,125.371,0.89,1.79,0.0037,0.37
+205,TABASCO,"Villahermosa, Tab.",Alimentos,114.578,0.33,6.16,0.0037,0.37
+206,BAJA CALIFORNIA,"Mexicali, B.C.",Mercancías no alimenticias,107.332,-0.3,5.62,0.0036,0.36
+207,GUERRERO,"Acapulco, Gro.",Mercancías,112.422,0.41,6.13,0.0036,0.36
+208,PUEBLA,"Puebla, Pue.",Energéticos,105.364,4.75,2.99,0.0036,0.36
+209,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Otros servicios,110.813,0.53,3.36,0.0036,0.36
+210,TAMAULIPAS,"Tampico, Tamps.",Alimentos,111.88,0.62,5.69,0.0036,0.36
+211,BAJA CALIFORNIA,"Tijuana, B.C.",Alimentos,115.416,0.85,7.55,0.0035,0.35
+212,BAJA CALIFORNIA,"Tijuana, B.C.",Vivienda,108.314,0.13,3.68,0.0035,0.35
+213,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Otros servicios,108.179,-0.16,3.86,0.0035,0.35
+214,GUANAJUATO,"León, Gto.",Mercancías no alimenticias,108.326,0.23,4.23,0.0035,0.35
+215,GUANAJUATO,"León, Gto.",Energéticos y Tarifas Autorizadas por el Gobierno,105.712,2.64,-1.54,0.0035,0.35
+216,MICHOACAN,"Jacona, Mich.",Mercancías no alimenticias,106.399,1.02,4.13,0.0035,0.35
+217,OAXACA,"Oaxaca, Oax.",Mercancías no alimenticias,109.814,0.8,4.79,0.0035,0.35
+218,PUEBLA,"Izúcar de Matamoros, Pue.",Mercancías,109.312,0.33,4.72,0.0035,0.35
+219,VERACRUZ,"San Andrés Tuxtla, Ver.",Mercancías,112.46,0.63,6.77,0.0035,0.35
+220,YUCATAN,"Mérida, Yuc.",No Subyacente,114.263,0.15,1.84,0.0035,0.35
+221,BAJA CALIFORNIA,"Mexicali, B.C.",Energéticos,124.904,2.84,-0.66,0.0034,0.34
+222,CAMPECHE,"Campeche, Camp.",Mercancías,112.522,0.23,4.59,0.0034,0.34
+223,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Alimentos,115.792,0.53,8.05,0.0034,0.34
+224,COAHUILA,"Cd. Acuña, Coah.",Mercancías,109.876,0.26,6.22,0.0034,0.34
+225,COAHUILA,"Cd. Acuña, Coah.",Servicios,109.458,-0.01,3.4,0.0034,0.34
+226,GUANAJUATO,"León, Gto.",Otros servicios,107.587,0.12,1.12,0.0034,0.34
+227,NAYARIT,"Tepic, Nay.",Servicios,106.515,0.26,2.83,0.0034,0.34
+228,QUERETARO,"Querétaro, Qro.",Alimentos,112.394,0.78,4.89,0.0034,0.34
+229,QUERETARO,"Querétaro, Qro.",Mercancías no alimenticias,114.388,0.48,5.17,0.0034,0.34
+230,TLAXCALA,"Tlaxcala, Tlax.",Mercancías,111.18,0.6,5.18,0.0034,0.34
+231,VERACRUZ,"Coatzacoalcos, Ver.",Mercancías,110.766,0.42,5.76,0.0034,0.34
+232,BAJA CALIFORNIA,"Tijuana, B.C.",Energéticos,97.874,4.72,-0.88,0.0033,0.33
+233,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Servicios,106.888,-0.45,2,0.0033,0.33
+234,CHIHUAHUA,"Cd. Juárez, Chih.",No Subyacente,111.712,1.29,2.29,0.0033,0.33
+235,SINALOA,"Culiacán, Sin.",Energéticos,130.9,2.93,-1.29,0.0033,0.33
+236,VERACRUZ,"Córdoba, Ver.",Agropecuarios,117.25,1.38,4.72,0.0033,0.33
+237,ZACATECAS,"Zacatecas, Zac.",Subyacente,109.342,0.31,3.38,0.0033,0.33
+238,BAJA CALIFORNIA,"Mexicali, B.C.",Alimentos,113.526,-0.04,6.9,0.0032,0.32
+239,BAJA CALIFORNIA,"Tijuana, B.C.",Mercancías no alimenticias,110.09,0.83,8.22,0.0032,0.32
+240,MICHOACAN,"Jacona, Mich.",Otros servicios,109.372,1.15,3.72,0.0032,0.32
+241,QUERETARO,"Querétaro, Qro.",Otros servicios,109.745,-0.17,4.16,0.0032,0.32
+242,SINALOA,"Culiacán, Sin.",Vivienda,108.859,0.36,3.15,0.0032,0.32
+243,TAMAULIPAS,"Tampico, Tamps.",Mercancías no alimenticias,109.357,0.41,4.06,0.0032,0.32
+244,BAJA CALIFORNIA,"Mexicali, B.C.",Otros servicios,107.033,0.66,3.02,0.0031,0.31
+245,GUANAJUATO,"Cortazar, Gto.",Energéticos,99.834,3.76,-0.87,0.0031,0.31
+246,GUERRERO,"Iguala, Gro.",Servicios,108.001,0.4,4.85,0.0031,0.31
+247,JALISCO,"Guadalajara, Jal.",Resto de Agropecuarios,113.101,0.89,5.36,0.0031,0.31
+248,MORELOS,"Cuernavaca, Mor.",Alimentos,116.201,0.49,6.51,0.0031,0.31
+249,VERACRUZ,"Coatzacoalcos, Ver.",Servicios,105.68,0.31,1.45,0.0031,0.31
+250,YUCATAN,"Mérida, Yuc.",Mercancías no alimenticias,109.098,0.8,4.97,0.0031,0.31
+251,COAHUILA,"Saltillo, Coah.",Servicios,106.429,-0.24,1.89,0.003,0.3
+252,COLIMA,"Colima, Col.",Mercancías,111.32,0.54,5.8,0.003,0.3
+253,MICHOACAN,"Morelia, Mich.",Alimentos,114.314,0.35,7.52,0.003,0.3
+254,OAXACA,"Oaxaca, Oax.",Otros servicios,107.1,0.91,2.66,0.003,0.3
+255,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Energéticos y Tarifas Autorizadas por el Gobierno,104.657,2.95,1.21,0.003,0.3
+256,SONORA,"Hermosillo, Son.",Mercancías no alimenticias,107.264,0.78,4.1,0.003,0.3
+257,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Mercancías no alimenticias,112.723,-0.08,6.04,0.0029,0.29
+258,COAHUILA,"Monclova, Coah.",Subyacente,109.682,0.3,4.04,0.0029,0.29
+259,HIDALGO,"Pachuca, Hgo.",Alimentos,113.013,0.49,6.08,0.0029,0.29
+260,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Vivienda,107.59,0.18,3.22,0.0029,0.29
+261,TAMAULIPAS,"Matamoros, Tamps.",No Subyacente,115.535,1.66,1.96,0.0029,0.29
+262,VERACRUZ,"Córdoba, Ver.",Energéticos,104.071,4.26,3.79,0.0029,0.29
+263,YUCATAN,"Mérida, Yuc.",Otros servicios,110.927,-0.52,2.14,0.0029,0.29
+264,GUANAJUATO,"León, Gto.",Vivienda,103.294,0.08,1.3,0.0028,0.28
+265,GUERRERO,"Iguala, Gro.",No Subyacente,108.396,0.54,0.64,0.0028,0.28
+266,JALISCO,"Tepatitlán, Jal.",Otros servicios,107.744,1.95,2.2,0.0028,0.28
+267,MORELOS,"Cuernavaca, Mor.",Mercancías no alimenticias,108.941,-0.22,3.56,0.0028,0.28
+268,MORELOS,"Cuernavaca, Mor.",Otros servicios,108.997,-0.38,2.87,0.0028,0.28
+269,QUERETARO,"Querétaro, Qro.",Vivienda,106.013,0.04,1.92,0.0028,0.28
+270,SONORA,"Hermosillo, Son.",Alimentos,114.74,0.43,6.55,0.0028,0.28
+271,TAMAULIPAS,"Tampico, Tamps.",Otros servicios,107.786,0.09,3.38,0.0028,0.28
+272,BAJA CALIFORNIA,"Mexicali, B.C.",Vivienda,105.317,0.3,2.36,0.0027,0.27
+273,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Mercancías,113.415,0.55,6.28,0.0027,0.27
+274,CHIAPAS,"Tapachula, Chis.",No Subyacente,106.403,-2.59,1.73,0.0027,0.27
+275,CHIHUAHUA,"Chihuahua, Chih.",No Subyacente,111.346,1.8,1,0.0027,0.27
+276,CHIHUAHUA,"Jiménez, Chih.",Mercancías,110.232,0.14,4.78,0.0027,0.27
+277,DURANGO,"Durango, Dgo.",Servicios,105.896,-0.12,1.17,0.0027,0.27
+278,HIDALGO,"Tulancingo, Hgo.",Subyacente,111.12,0.26,5.09,0.0027,0.27
+279,HIDALGO,"Pachuca, Hgo.",Mercancías no alimenticias,109.634,0.95,5.97,0.0027,0.27
+280,NUEVO LEON,"Monterrey, N.L.",Resto de Agropecuarios,112.341,0.42,4.06,0.0027,0.27
+281,TABASCO,"Villahermosa, Tab.",Vivienda,102.382,-0.08,0.16,0.0027,0.27
+282,TAMAULIPAS,"Tampico, Tamps.",Energéticos y Tarifas Autorizadas por el Gobierno,114.633,2.57,1.09,0.0027,0.27
+283,AGUASCALIENTES,"Aguascalientes, Ags.",No Subyacente,109.793,2.92,1.26,0.0026,0.26
+284,CHIHUAHUA,"Cd. Juárez, Chih.",Mercancías no alimenticias,106.485,-0.14,4.22,0.0026,0.26
+285,COAHUILA,"Torreón, Coah.",Alimentos,116.539,0.62,8.18,0.0026,0.26
+286,COAHUILA,"Torreón, Coah.",No Subyacente,111.392,0.47,-1.98,0.0026,0.26
+287,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Agropecuarios,108.554,1.19,2.65,0.0026,0.26
+288,GUERRERO,"Iguala, Gro.",Alimentos,114.155,1.3,6.83,0.0026,0.26
+289,HIDALGO,"Pachuca, Hgo.",Otros servicios,108.843,-0.1,2.41,0.0026,0.26
+290,SONORA,"Huatabampo, Son.",Mercancías,110.244,0.3,3.69,0.0026,0.26
+291,TLAXCALA,"Tlaxcala, Tlax.",Servicios,106.394,-0.16,1.6,0.0026,0.26
+292,CHIAPAS,"Tapachula, Chis.",Alimentos,112.914,0.44,6.27,0.0025,0.25
+293,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Mercancías,110.185,0.14,5.39,0.0025,0.25
+294,GUANAJUATO,"Cortazar, Gto.",Agropecuarios,118.027,-0.84,6.54,0.0025,0.25
+295,MICHOACAN,"Morelia, Mich.",Mercancías no alimenticias,106.948,0.18,3.2,0.0025,0.25
+296,MICHOACAN,"Morelia, Mich.",Otros servicios,108.039,0.1,2.45,0.0025,0.25
+297,NUEVO LEON,"Monterrey, N.L.",Tarifas Autorizadas por Gobierno,105.974,0.09,1.69,0.0025,0.25
+298,SONORA,"Hermosillo, Son.",Energéticos y Tarifas Autorizadas por el Gobierno,132.197,1.06,1.8,0.0025,0.25
+299,TABASCO,"Villahermosa, Tab.",Agropecuarios,114.147,-0.77,6.81,0.0025,0.25
+300,TABASCO,"Villahermosa, Tab.",Energéticos y Tarifas Autorizadas por el Gobierno,116.867,2.99,2.43,0.0025,0.25
+301,TAMAULIPAS,"Tampico, Tamps.",Vivienda,103.27,0.13,0.6,0.0025,0.25
+302,VERACRUZ,"San Andrés Tuxtla, Ver.",Servicios,108.128,0.19,2.1,0.0025,0.25
+303,ZACATECAS,"Fresnillo, Zac.",Mercancías,113.173,0.28,6.28,0.0025,0.25
+304,AGUASCALIENTES,"Aguascalientes, Ags.",Alimentos,115.851,0.57,6.44,0.0024,0.24
+305,CAMPECHE,"Campeche, Camp.",Servicios,106.02,0.07,1.21,0.0024,0.24
+306,CHIHUAHUA,"Cd. Juárez, Chih.",Energéticos y Tarifas Autorizadas por el Gobierno,110.562,2.94,1.13,0.0024,0.24
+307,COAHUILA,"Torreón, Coah.",Mercancías no alimenticias,111.445,0.31,5.1,0.0024,0.24
+308,COLIMA,"Colima, Col.",Servicios,108.64,0.54,3.42,0.0024,0.24
+309,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Energéticos,104.367,5.48,1.65,0.0024,0.24
+310,JALISCO,"Tepatitlán, Jal.",Vivienda,109.489,0.48,3.04,0.0024,0.24
+311,MICHOACAN,"Jacona, Mich.",Vivienda,109.692,0.6,3.34,0.0024,0.24
+312,MICHOACAN,"Jacona, Mich.",Energéticos y Tarifas Autorizadas por el Gobierno,106.406,3.36,2,0.0024,0.24
+313,NAYARIT,"Tepic, Nay.",No Subyacente,108.254,2.01,1.95,0.0024,0.24
+314,PUEBLA,"Izúcar de Matamoros, Pue.",Servicios,105.487,0.45,0.86,0.0024,0.24
+315,SONORA,"Esperanza, Son.",Mercancías,108.353,1.07,4.76,0.0024,0.24
+316,SONORA,"Esperanza, Son.",Servicios,106.774,0.1,3.46,0.0024,0.24
+317,TABASCO,"Villahermosa, Tab.",Otros servicios,108.8,-0.02,2.23,0.0024,0.24
+318,VERACRUZ,"Veracruz, Ver.",Mercancías no alimenticias,106.616,0.42,3.84,0.0024,0.24
+319,VERACRUZ,"Veracruz, Ver.",No Subyacente,114.71,0.51,1.37,0.0024,0.24
+320,CHIAPAS,"Tapachula, Chis.",Servicios,109.557,-0.24,3.79,0.0023,0.23
+321,DURANGO,"Durango, Dgo.",Alimentos,114.284,0.57,7.54,0.0023,0.23
+322,GUANAJUATO,"León, Gto.",Energéticos,101.513,3.57,-3.11,0.0023,0.23
+323,GUERRERO,"Acapulco, Gro.",Servicios,107.897,0.04,2.29,0.0023,0.23
+324,HIDALGO,"Pachuca, Hgo.",Energéticos y Tarifas Autorizadas por el Gobierno,103.561,3.29,3.37,0.0023,0.23
+325,MICHOACAN,"Morelia, Mich.",Energéticos y Tarifas Autorizadas por el Gobierno,104.64,3.38,3,0.0023,0.23
+326,NAYARIT,"Tepic, Nay.",Alimentos,112.829,0.63,4.94,0.0023,0.23
+327,OAXACA,"Oaxaca, Oax.",Vivienda,108.173,0.42,2.27,0.0023,0.23
+328,OAXACA,"Tehuantepec, Oax.",Alimentos,115.894,0.48,5.92,0.0023,0.23
+329,QUERETARO,"Querétaro, Qro.",Energéticos y Tarifas Autorizadas por el Gobierno,108.253,2.91,-0.71,0.0023,0.23
+330,SINALOA,"Culiacán, Sin.",Agropecuarios,113.5,-1.14,4.79,0.0023,0.23
+331,TAMAULIPAS,"Matamoros, Tamps.",Alimentos,115.693,0.68,5.98,0.0023,0.23
+332,TLAXCALA,"Tlaxcala, Tlax.",No Subyacente,108.295,1.96,1.36,0.0023,0.23
+333,CHIHUAHUA,"Cd. Juárez, Chih.",Alimentos,114.759,0.6,3.86,0.0022,0.22
+334,COAHUILA,"Saltillo, Coah.",No Subyacente,106.299,1.03,-0.28,0.0022,0.22
+335,GUERRERO,"Acapulco, Gro.",No Subyacente,111.48,0.16,0.68,0.0022,0.22
+336,MORELOS,"Cuernavaca, Mor.",Vivienda,101.491,-0.04,0.68,0.0022,0.22
+337,OAXACA,"Oaxaca, Oax.",Agropecuarios,111.707,-0.7,-1.95,0.0022,0.22
+338,OAXACA,"Oaxaca, Oax.",Energéticos y Tarifas Autorizadas por el Gobierno,105.89,2.49,4.08,0.0022,0.22
+339,QUINTANAROO,"Chetumal, Q. Roo.",Mercancías,111.594,0.7,5.15,0.0022,0.22
+340,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Energéticos,102.652,3.96,0.95,0.0022,0.22
+341,SONORA,"Hermosillo, Son.",Vivienda,103.611,0.04,1.17,0.0022,0.22
+342,SONORA,"Hermosillo, Son.",Otros servicios,109.529,0.15,3.55,0.0022,0.22
+343,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Agropecuarios,108.807,0.73,1.8,0.0021,0.21
+344,CHIHUAHUA,"Chihuahua, Chih.",Mercancías no alimenticias,110.388,0.96,5.92,0.0021,0.21
+345,COAHUILA,"Cd. Acuña, Coah.",Mercancías no alimenticias,107.581,-0.01,5.79,0.0021,0.21
+346,COAHUILA,"Cd. Acuña, Coah.",No Subyacente,113.847,1.18,-1.07,0.0021,0.21
+347,DURANGO,"Durango, Dgo.",Mercancías no alimenticias,112.095,0.53,5.68,0.0021,0.21
+348,DURANGO,"Durango, Dgo.",No Subyacente,108.633,1.19,-0.13,0.0021,0.21
+349,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Servicios,105.282,-0.05,1.87,0.0021,0.21
+350,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",No Subyacente,111.467,4.44,1.27,0.0021,0.21
+351,GUERRERO,"Acapulco, Gro.",Alimentos,113.804,0.32,5.97,0.0021,0.21
+352,HIDALGO,"Pachuca, Hgo.",Vivienda,104.707,0.24,0.03,0.0021,0.21
+353,JALISCO,"Guadalajara, Jal.",Frutas y Verduras,120.746,2.43,0.46,0.0021,0.21
+354,MORELOS,"Cuernavaca, Mor.",Energéticos y Tarifas Autorizadas por el Gobierno,104.049,3.3,1.8,0.0021,0.21
+355,NAYARIT,"Tepic, Nay.",Mercancías no alimenticias,107.624,0.39,4.15,0.0021,0.21
+356,OAXACA,"Tehuantepec, Oax.",Servicios,105.595,0.16,-0.36,0.0021,0.21
+357,OAXACA,"Tehuantepec, Oax.",No Subyacente,117.452,1.4,5.91,0.0021,0.21
+358,PUEBLA,"Puebla, Pue.",Frutas y Verduras,108.539,0.98,-9.44,0.0021,0.21
+359,PUEBLA,"Izúcar de Matamoros, Pue.",No Subyacente,113.879,2.37,3.78,0.0021,0.21
+360,QUINTANAROO,"Cancún, Q. Roo.",Alimentos,111.154,0.65,3.8,0.0021,0.21
+361,QUINTANAROO,"Cancún, Q. Roo.",No Subyacente,113.779,0.85,0.46,0.0021,0.21
+362,TAMAULIPAS,"Matamoros, Tamps.",Mercancías no alimenticias,108.037,0.9,4.79,0.0021,0.21
+363,AGUASCALIENTES,"Aguascalientes, Ags.",Otros servicios,108.423,-0.55,1.83,0.002,0.2
+364,COAHUILA,"Torreón, Coah.",Otros servicios,110.868,0.75,3.75,0.002,0.2
+365,COAHUILA,"Saltillo, Coah.",Mercancías no alimenticias,109.51,0.86,5.34,0.002,0.2
+366,JALISCO,"Guadalajara, Jal.",Educación,114.732,0,4.29,0.002,0.2
+367,MICHOACAN,"Jacona, Mich.",Agropecuarios,113.805,-0.48,1.88,0.002,0.2
+368,SONORA,"Hermosillo, Son.",Energéticos,140.223,1.23,1.98,0.002,0.2
+369,TAMAULIPAS,"Matamoros, Tamps.",Energéticos y Tarifas Autorizadas por el Gobierno,117.358,2.28,1.64,0.002,0.2
+370,YUCATAN,"Mérida, Yuc.",Vivienda,105.75,0.08,1.6,0.002,0.2
+371,YUCATAN,"Mérida, Yuc.",Energéticos y Tarifas Autorizadas por el Gobierno,116.4,1.94,2.1,0.002,0.2
+372,AGUASCALIENTES,"Aguascalientes, Ags.",Mercancías no alimenticias,108.225,0.07,2.99,0.0019,0.19
+373,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Vivienda,105.193,0.01,2.45,0.0019,0.19
+374,CAMPECHE,"Campeche, Camp.",No Subyacente,112.02,0.41,1.04,0.0019,0.19
+375,CHIAPAS,"Tapachula, Chis.",Mercancías no alimenticias,112.852,-0.62,4.19,0.0019,0.19
+376,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Vivienda,103.916,-0.05,0.5,0.0019,0.19
+377,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Energéticos y Tarifas Autorizadas por el Gobierno,108.95,3.28,9.51,0.0019,0.19
+378,CHIHUAHUA,"Cd. Juárez, Chih.",Otros servicios,110.43,0.07,4.67,0.0019,0.19
+379,CHIHUAHUA,"Chihuahua, Chih.",Vivienda,109.673,0.3,4.43,0.0019,0.19
+380,CHIHUAHUA,"Chihuahua, Chih.",Energéticos y Tarifas Autorizadas por el Gobierno,109.805,2.89,-1.01,0.0019,0.19
+381,CHIHUAHUA,"Jiménez, Chih.",Servicios,108.5,0.36,3.01,0.0019,0.19
+382,COAHUILA,"Saltillo, Coah.",Alimentos,113.787,-0.7,5.65,0.0019,0.19
+383,GUERRERO,"Iguala, Gro.",Mercancías no alimenticias,110.98,0.95,5.6,0.0019,0.19
+384,JALISCO,"Tepatitlán, Jal.",Agropecuarios,115.653,1.02,5.02,0.0019,0.19
+385,JALISCO,"Tepatitlán, Jal.",Energéticos y Tarifas Autorizadas por el Gobierno,104.362,2.3,-0.35,0.0019,0.19
+386,MICHOACAN,"Morelia, Mich.",Vivienda,101.842,0.1,0.69,0.0019,0.19
+387,MICHOACAN,"Jacona, Mich.",Energéticos,105.606,4.31,1.9,0.0019,0.19
+388,NAYARIT,"Tepic, Nay.",Otros servicios,107.038,0.16,3.84,0.0019,0.19
+389,NUEVO LEON,"Monterrey, N.L.",Educación,110.366,0,1.63,0.0019,0.19
+390,TABASCO,"Villahermosa, Tab.",Resto de Agropecuarios,111.332,-0.99,8.58,0.0019,0.19
+391,TAMAULIPAS,"Tampico, Tamps.",Energéticos,117.672,3.33,0.7,0.0019,0.19
+392,VERACRUZ,"Veracruz, Ver.",Alimentos,113.701,0.26,6.45,0.0019,0.19
+393,VERACRUZ,"Coatzacoalcos, Ver.",Mercancías no alimenticias,108.42,0.55,4.26,0.0019,0.19
+394,AGUASCALIENTES,"Aguascalientes, Ags.",Energéticos y Tarifas Autorizadas por el Gobierno,106.973,3.49,0.64,0.0018,0.18
+395,CAMPECHE,"Campeche, Camp.",Alimentos,115.184,0.1,4.16,0.0018,0.18
+396,CHIHUAHUA,"Cd. Juárez, Chih.",Vivienda,104.247,0,2.73,0.0018,0.18
+397,CHIHUAHUA,"Cd. Juárez, Chih.",Energéticos,108.717,3.35,-0.88,0.0018,0.18
+398,CHIHUAHUA,"Chihuahua, Chih.",Alimentos,115.136,0.01,5.72,0.0018,0.18
+399,CHIHUAHUA,"Jiménez, Chih.",No Subyacente,113.326,1.5,2.14,0.0018,0.18
+400,COLIMA,"Colima, Col.",No Subyacente,108.397,1.73,0.41,0.0018,0.18
+401,NUEVO LEON,"Monterrey, N.L.",Frutas y Verduras,104.139,0.14,-3.61,0.0018,0.18
+402,PUEBLA,"Izúcar de Matamoros, Pue.",Alimentos,111.219,0.31,6.06,0.0018,0.18
+403,QUINTANAROO,"Cancún, Q. Roo.",Otros servicios,108.093,-0.49,2.1,0.0018,0.18
+404,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Agropecuarios,117.352,1.21,3.49,0.0018,0.18
+405,TAMAULIPAS,"Matamoros, Tamps.",Vivienda,104.997,0.16,1.62,0.0018,0.18
+406,TAMAULIPAS,"Matamoros, Tamps.",Otros servicios,108.702,1.18,2.96,0.0018,0.18
+407,VERACRUZ,"Veracruz, Ver.",Otros servicios,106.625,-0.2,2.17,0.0018,0.18
+408,VERACRUZ,"San Andrés Tuxtla, Ver.",Mercancías no alimenticias,109.908,0.35,5.83,0.0018,0.18
+409,VERACRUZ,"San Andrés Tuxtla, Ver.",No Subyacente,116.263,2.29,5.66,0.0018,0.18
+410,VERACRUZ,"Coatzacoalcos, Ver.",No Subyacente,115.492,2.1,3.4,0.0018,0.18
+411,ZACATECAS,"Zacatecas, Zac.",Mercancías,111.476,0.52,4.39,0.0018,0.18
+412,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",No Subyacente,119.407,1.49,-0.79,0.0017,0.17
+413,CHIAPAS,"Tapachula, Chis.",Agropecuarios,105.196,-4.62,0.59,0.0017,0.17
+414,CHIHUAHUA,"Chihuahua, Chih.",Otros servicios,104.901,-0.07,2.13,0.0017,0.17
+415,COAHUILA,"Torreón, Coah.",Energéticos y Tarifas Autorizadas por el Gobierno,111.626,1.33,-2.62,0.0017,0.17
+416,COAHUILA,"Cd. Acuña, Coah.",Otros servicios,110.064,-0.3,4.55,0.0017,0.17
+417,GUANAJUATO,"León, Gto.",Agropecuarios,110.039,1.42,-0.18,0.0017,0.17
+418,HIDALGO,"Pachuca, Hgo.",Agropecuarios,114.284,2.48,0.67,0.0017,0.17
+419,JALISCO,"Guadalajara, Jal.",Tarifas Autorizadas por Gobierno,123.291,1.54,15.2,0.0017,0.17
+420,JALISCO,"Tepatitlán, Jal.",Energéticos,102.402,2.54,-0.63,0.0017,0.17
+421,MICHOACAN,"Morelia, Mich.",Agropecuarios,107.218,1.54,-1.49,0.0017,0.17
+422,PUEBLA,"Puebla, Pue.",Resto de Agropecuarios,115.678,-0.32,10.36,0.0017,0.17
+423,PUEBLA,"Izúcar de Matamoros, Pue.",Mercancías no alimenticias,107.249,0.34,3.27,0.0017,0.17
+424,QUINTANAROO,"Cancún, Q. Roo.",Mercancías no alimenticias,109.387,-0.28,3.18,0.0017,0.17
+425,TLAXCALA,"Tlaxcala, Tlax.",Mercancías no alimenticias,107.83,0.59,3.57,0.0017,0.17
+426,VERACRUZ,"Veracruz, Ver.",Vivienda,104.113,0.12,1.1,0.0017,0.17
+427,VERACRUZ,"Córdoba, Ver.",Resto de Agropecuarios,119.474,2.43,9.79,0.0017,0.17
+428,VERACRUZ,"San Andrés Tuxtla, Ver.",Alimentos,115.221,0.92,7.76,0.0017,0.17
+429,CAMPECHE,"Campeche, Camp.",Mercancías no alimenticias,109.514,0.4,5.1,0.0016,0.16
+430,CHIHUAHUA,"Chihuahua, Chih.",Energéticos,108.684,3.16,-1.92,0.0016,0.16
+431,COAHUILA,"Monclova, Coah.",Mercancías,111.616,0.58,5.67,0.0016,0.16
+432,COLIMA,"Colima, Col.",Alimentos,115.964,0.47,7.51,0.0016,0.16
+433,HIDALGO,"Pachuca, Hgo.",Energéticos,103.976,4.76,4.43,0.0016,0.16
+434,MICHOACAN,"Morelia, Mich.",Energéticos,101.904,4.97,4.22,0.0016,0.16
+435,MORELOS,"Cuernavaca, Mor.",Agropecuarios,113.246,0.54,1.92,0.0016,0.16
+436,OAXACA,"Tehuantepec, Oax.",Mercancías no alimenticias,112.468,1.68,4.66,0.0016,0.16
+437,PUEBLA,"Puebla, Pue.",Educación,110.155,0.28,-0.85,0.0016,0.16
+438,QUERETARO,"Querétaro, Qro.",Energéticos,101.983,4.48,-1.98,0.0016,0.16
+439,QUINTANAROO,"Cancún, Q. Roo.",Vivienda,106.468,0,0.75,0.0016,0.16
+440,SONORA,"Huatabampo, Son.",Servicios,105.162,-0.09,1.13,0.0016,0.16
+441,TABASCO,"Villahermosa, Tab.",Energéticos,117.99,3.58,2.69,0.0016,0.16
+442,TLAXCALA,"Tlaxcala, Tlax.",Alimentos,114.748,0.61,6.84,0.0016,0.16
+443,VERACRUZ,"Córdoba, Ver.",Frutas y Verduras,114.833,0.23,-0.48,0.0016,0.16
+444,ZACATECAS,"Fresnillo, Zac.",Servicios,106.07,0.13,0.83,0.0016,0.16
+445,BAJA CALIFORNIA,"Mexicali, B.C.",Agropecuarios,113.617,0.24,2.71,0.0015,0.15
+446,BAJA CALIFORNIA,"Tijuana, B.C.",Agropecuarios,116.08,-0.34,4.79,0.0015,0.15
+447,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Otros servicios,106.022,0.13,1.66,0.0015,0.15
+448,COAHUILA,"Cd. Acuña, Coah.",Energéticos y Tarifas Autorizadas por el Gobierno,116.129,1.73,-1.03,0.0015,0.15
+449,COAHUILA,"Saltillo, Coah.",Otros servicios,107.576,-0.59,1.76,0.0015,0.15
+450,COAHUILA,"Saltillo, Coah.",Energéticos y Tarifas Autorizadas por el Gobierno,103.635,1.27,-1.85,0.0015,0.15
+451,COLIMA,"Colima, Col.",Mercancías no alimenticias,106.291,0.61,3.85,0.0015,0.15
+452,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Tarifas Autorizadas por Gobierno,115.575,0.05,0.26,0.0015,0.15
+453,GUERRERO,"Acapulco, Gro.",Mercancías no alimenticias,110.407,0.53,6.38,0.0015,0.15
+454,GUERRERO,"Iguala, Gro.",Otros servicios,110.706,0.48,7.53,0.0015,0.15
+455,HIDALGO,"Tulancingo, Hgo.",Mercancías,114.608,0.47,7.25,0.0015,0.15
+456,PUEBLA,"Puebla, Pue.",Tarifas Autorizadas por Gobierno,123.371,0.13,-0.69,0.0015,0.15
+457,QUERETARO,"Querétaro, Qro.",Agropecuarios,115.283,1.23,0.59,0.0015,0.15
+458,QUINTANAROO,"Chetumal, Q. Roo.",Servicios,105.743,0.21,2.11,0.0015,0.15
+459,SONORA,"Esperanza, Son.",No Subyacente,125.04,1.15,2.81,0.0015,0.15
+460,TAMAULIPAS,"Matamoros, Tamps.",Energéticos,119.261,2.2,1.7,0.0015,0.15
+461,VERACRUZ,"Córdoba, Ver.",Tarifas Autorizadas por Gobierno,106.72,0.01,0.79,0.0015,0.15
+462,VERACRUZ,"Coatzacoalcos, Ver.",Alimentos,113.713,0.27,7.62,0.0015,0.15
+463,VERACRUZ,"Coatzacoalcos, Ver.",Otros servicios,107.929,0.63,2.19,0.0015,0.15
+464,YUCATAN,"Mérida, Yuc.",Agropecuarios,111.507,-2.16,1.5,0.0015,0.15
+465,ZACATECAS,"Fresnillo, Zac.",No Subyacente,106.436,0.46,0.07,0.0015,0.15
+466,ZACATECAS,"Zacatecas, Zac.",Servicios,106.722,0.04,2.11,0.0015,0.15
+467,AGUASCALIENTES,"Aguascalientes, Ags.",Vivienda,104.406,0.05,0.72,0.0014,0.14
+468,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Alimentos,115.57,1.05,6.76,0.0014,0.14
+469,COAHUILA,"Cd. Acuña, Coah.",Vivienda,108.377,0.35,1.86,0.0014,0.14
+470,COLIMA,"Colima, Col.",Otros servicios,110.828,0.79,4.76,0.0014,0.14
+471,DURANGO,"Durango, Dgo.",Otros servicios,104.804,-0.52,-0.18,0.0014,0.14
+472,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Resto de Agropecuarios,119.655,1.49,17.11,0.0014,0.14
+473,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Alimentos,112.831,0.02,6.06,0.0014,0.14
+474,GUANAJUATO,"Cortazar, Gto.",Educación,112.466,0,-0.31,0.0014,0.14
+475,GUERRERO,"Iguala, Gro.",Agropecuarios,107.936,-0.44,-2.03,0.0014,0.14
+476,GUERRERO,"Iguala, Gro.",Energéticos y Tarifas Autorizadas por el Gobierno,108.869,1.55,3.51,0.0014,0.14
+477,OAXACA,"Oaxaca, Oax.",Energéticos,103.718,4.02,5.67,0.0014,0.14
+478,SONORA,"Huatabampo, Son.",No Subyacente,122.51,1.88,2.15,0.0014,0.14
+479,ZACATECAS,"Fresnillo, Zac.",Alimentos,114.622,0.65,7.47,0.0014,0.14
+480,AGUASCALIENTES,"Aguascalientes, Ags.",Energéticos,102.631,4.94,0.2,0.0013,0.13
+481,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Mercancías no alimenticias,111.177,0.01,5.77,0.0013,0.13
+482,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Otros servicios,109.18,-1.17,1.54,0.0013,0.13
+483,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Energéticos,107.955,4.65,9.6,0.0013,0.13
+484,CHIHUAHUA,"Jiménez, Chih.",Alimentos,116.22,0.27,6.76,0.0013,0.13
+485,CHIHUAHUA,"Jiménez, Chih.",Mercancías no alimenticias,104.177,-0.01,2.64,0.0013,0.13
+486,COAHUILA,"Torreón, Coah.",Vivienda,106.748,0.32,2.24,0.0013,0.13
+487,COAHUILA,"Cd. Acuña, Coah.",Alimentos,113.662,0.67,6.89,0.0013,0.13
+488,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Energéticos y Tarifas Autorizadas por el Gobierno,111.857,3.99,4.32,0.0013,0.13
+489,GUERRERO,"Iguala, Gro.",Vivienda,106.746,0.37,3.71,0.0013,0.13
+490,MORELOS,"Cuernavaca, Mor.",Energéticos,103.696,4.58,2.76,0.0013,0.13
+491,NAYARIT,"Tepic, Nay.",Vivienda,104.865,0.47,1.59,0.0013,0.13
+492,NAYARIT,"Tepic, Nay.",Energéticos y Tarifas Autorizadas por el Gobierno,104.878,3.33,0.93,0.0013,0.13
+493,QUINTANAROO,"Cancún, Q. Roo.",Energéticos y Tarifas Autorizadas por el Gobierno,118.197,1.64,1.88,0.0013,0.13
+494,SINALOA,"Culiacán, Sin.",Resto de Agropecuarios,114.201,-0.83,6.2,0.0013,0.13
+495,SONORA,"Huatabampo, Son.",Alimentos,114.84,0.38,4.44,0.0013,0.13
+496,SONORA,"Huatabampo, Son.",Mercancías no alimenticias,105.482,0.2,2.86,0.0013,0.13
+497,TAMAULIPAS,"Tampico, Tamps.",Agropecuarios,109.19,1.49,6.76,0.0013,0.13
+498,TLAXCALA,"Tlaxcala, Tlax.",Otros servicios,108.265,-0.3,3.12,0.0013,0.13
+499,TLAXCALA,"Tlaxcala, Tlax.",Energéticos y Tarifas Autorizadas por el Gobierno,106.442,3.03,4.02,0.0013,0.13
+500,VERACRUZ,"Coatzacoalcos, Ver.",Vivienda,103.105,0,0.97,0.0013,0.13
+501,YUCATAN,"Mérida, Yuc.",Energéticos,123.386,2.79,2.62,0.0013,0.13
+502,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Resto de Agropecuarios,110.662,3.18,6.83,0.0012,0.12
+503,CHIHUAHUA,"Jiménez, Chih.",Energéticos y Tarifas Autorizadas por el Gobierno,113.595,2.19,0.7,0.0012,0.12
+504,COAHUILA,"Torreón, Coah.",Energéticos,109.119,1.42,-4.25,0.0012,0.12
+505,COAHUILA,"Monclova, Coah.",Servicios,107.122,-0.09,1.87,0.0012,0.12
+506,COAHUILA,"Cd. Acuña, Coah.",Energéticos,117.345,1.95,-1.5,0.0012,0.12
+507,COAHUILA,"Saltillo, Coah.",Vivienda,104.633,0.15,2.22,0.0012,0.12
+508,COLIMA,"Colima, Col.",Energéticos y Tarifas Autorizadas por el Gobierno,106.055,2.79,-1.35,0.0012,0.12
+509,DURANGO,"Durango, Dgo.",Energéticos y Tarifas Autorizadas por el Gobierno,105.194,2.99,-0.32,0.0012,0.12
+510,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Frutas y Verduras,96.235,0.78,-12.3,0.0012,0.12
+511,GUANAJUATO,"León, Gto.",Tarifas Autorizadas por Gobierno,113.481,1.13,1.17,0.0012,0.12
+512,GUANAJUATO,"Cortazar, Gto.",Frutas y Verduras,120.438,-1.21,4.41,0.0012,0.12
+513,GUANAJUATO,"Cortazar, Gto.",Resto de Agropecuarios,115.601,-0.46,8.87,0.0012,0.12
+514,GUERRERO,"Acapulco, Gro.",Energéticos y Tarifas Autorizadas por el Gobierno,110.949,1.03,1.29,0.0012,0.12
+515,HIDALGO,"Tulancingo, Hgo.",Servicios,106.935,0,2.43,0.0012,0.12
+516,OAXACA,"Oaxaca, Oax.",Frutas y Verduras,104.499,-1.62,-9.38,0.0012,0.12
+517,OAXACA,"Tehuantepec, Oax.",Agropecuarios,119.515,0.41,6.69,0.0012,0.12
+518,PUEBLA,"Izúcar de Matamoros, Pue.",Otros servicios,107.598,0.88,1.3,0.0012,0.12
+519,PUEBLA,"Izúcar de Matamoros, Pue.",Energéticos y Tarifas Autorizadas por el Gobierno,112.99,3.62,6.11,0.0012,0.12
+520,QUINTANAROO,"Chetumal, Q. Roo.",Alimentos,112.491,1.04,5.35,0.0012,0.12
+521,SONORA,"Hermosillo, Son.",Agropecuarios,110.411,0.42,1.79,0.0012,0.12
+522,SONORA,"Esperanza, Son.",Alimentos,111.397,1.28,5.85,0.0012,0.12
+523,SONORA,"Esperanza, Son.",Mercancías no alimenticias,105.214,0.84,3.6,0.0012,0.12
+524,SONORA,"Esperanza, Son.",Otros servicios,107.853,-0.16,3.17,0.0012,0.12
+525,VERACRUZ,"Veracruz, Ver.",Energéticos y Tarifas Autorizadas por el Gobierno,119.533,1.87,3.46,0.0012,0.12
+526,VERACRUZ,"San Andrés Tuxtla, Ver.",Vivienda,106.542,0,1.15,0.0012,0.12
+527,BAJA CALIFORNIA,"Tijuana, B.C.",Tarifas Autorizadas por Gobierno,104.753,0.91,2.85,0.0011,0.11
+528,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Energéticos y Tarifas Autorizadas por el Gobierno,124.236,2.69,-2.64,0.0011,0.11
+529,CAMPECHE,"Campeche, Camp.",Vivienda,105.161,0.48,1.51,0.0011,0.11
+530,CAMPECHE,"Campeche, Camp.",Otros servicios,107.251,-0.34,1.41,0.0011,0.11
+531,CHIAPAS,"Tapachula, Chis.",Vivienda,109.501,0.03,3.03,0.0011,0.11
+532,DURANGO,"Durango, Dgo.",Vivienda,106.251,0.38,2.69,0.0011,0.11
+533,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Mercancías no alimenticias,106.959,0.31,4.53,0.0011,0.11
+534,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Otros servicios,106.287,-0.1,1.74,0.0011,0.11
+535,GUERRERO,"Acapulco, Gro.",Otros servicios,110.731,0.07,2.23,0.0011,0.11
+536,GUERRERO,"Acapulco, Gro.",Agropecuarios,112.044,-0.73,0.05,0.0011,0.11
+537,JALISCO,"Tepatitlán, Jal.",Resto de Agropecuarios,111.591,0.26,4.16,0.0011,0.11
+538,MICHOACAN,"Jacona, Mich.",Resto de Agropecuarios,111.893,0.27,4.47,0.0011,0.11
+539,NAYARIT,"Tepic, Nay.",Agropecuarios,112.511,0.51,3.17,0.0011,0.11
+540,QUINTANAROO,"Chetumal, Q. Roo.",Mercancías no alimenticias,110.61,0.31,4.93,0.0011,0.11
+541,QUINTANAROO,"Chetumal, Q. Roo.",No Subyacente,115.916,0,1.44,0.0011,0.11
+542,TLAXCALA,"Tlaxcala, Tlax.",Agropecuarios,110.538,0.74,-1.58,0.0011,0.11
+543,VERACRUZ,"Veracruz, Ver.",Agropecuarios,109.385,-1.08,-1.05,0.0011,0.11
+544,VERACRUZ,"San Andrés Tuxtla, Ver.",Otros servicios,109.953,0.42,3.4,0.0011,0.11
+545,VERACRUZ,"San Andrés Tuxtla, Ver.",Agropecuarios,118.279,2.18,5.91,0.0011,0.11
+546,ZACATECAS,"Fresnillo, Zac.",Mercancías no alimenticias,111.424,-0.16,4.84,0.0011,0.11
+547,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Energéticos,127.842,2.99,-2.89,0.001,0.1
+548,CAMPECHE,"Campeche, Camp.",Energéticos y Tarifas Autorizadas por el Gobierno,116.8,2.02,1.6,0.001,0.1
+549,CHIAPAS,"Tapachula, Chis.",Energéticos y Tarifas Autorizadas por el Gobierno,108.423,0.89,3.63,0.001,0.1
+550,CHIHUAHUA,"Jiménez, Chih.",Energéticos,108.666,2.62,-0.6,0.001,0.1
+551,COAHUILA,"Monclova, Coah.",No Subyacente,111.064,1.25,0.86,0.001,0.1
+552,COAHUILA,"Saltillo, Coah.",Energéticos,97.794,2.41,-3.56,0.001,0.1
+553,DURANGO,"Durango, Dgo.",Energéticos,103.544,3.74,-0.53,0.001,0.1
+554,ESTADO DE MEXICO,"Toluca, Edo. de Méx.",Educación,112.043,0,1.72,0.001,0.1
+555,GUERRERO,"Acapulco, Gro.",Vivienda,104.06,0.01,2.17,0.001,0.1
+556,HIDALGO,"Tulancingo, Hgo.",No Subyacente,105.319,1.59,2.08,0.001,0.1
+557,NAYARIT,"Tepic, Nay.",Energéticos,102.964,4.35,1.04,0.001,0.1
+558,OAXACA,"Oaxaca, Oax.",Resto de Agropecuarios,119.866,0.23,6.7,0.001,0.1
+559,OAXACA,"Tehuantepec, Oax.",Vivienda,101.026,0,0.15,0.001,0.1
+560,OAXACA,"Tehuantepec, Oax.",Otros servicios,109.562,0.32,-1.18,0.001,0.1
+561,SONORA,"Esperanza, Son.",Vivienda,104.264,0.46,2.78,0.001,0.1
+562,SONORA,"Esperanza, Son.",Energéticos y Tarifas Autorizadas por el Gobierno,132.607,1.15,1.22,0.001,0.1
+563,TAMAULIPAS,"Matamoros, Tamps.",Agropecuarios,111.764,0.33,2.65,0.001,0.1
+564,TLAXCALA,"Tlaxcala, Tlax.",Vivienda,104.923,-0.1,1.71,0.001,0.1
+565,YUCATAN,"Mérida, Yuc.",Resto de Agropecuarios,113.213,0.92,5.47,0.001,0.1
+566,ZACATECAS,"Zacatecas, Zac.",Mercancías no alimenticias,108.888,0.77,3.55,0.001,0.1
+567,ZACATECAS,"Zacatecas, Zac.",No Subyacente,105.788,1.17,0.93,0.001,0.1
+568,AGUASCALIENTES,"Aguascalientes, Ags.",Agropecuarios,115.408,1.88,2.43,0.0009,0.09
+569,BAJA CALIFORNIA,"Mexicali, B.C.",Resto de Agropecuarios,114.442,1.43,8.53,0.0009,0.09
+570,BAJA CALIFORNIA,"Tijuana, B.C.",Resto de Agropecuarios,114.338,0.89,10.52,0.0009,0.09
+571,CAMPECHE,"Campeche, Camp.",Agropecuarios,106.663,-1.48,0.36,0.0009,0.09
+572,CHIAPAS,"Tapachula, Chis.",Otros servicios,110.009,-0.61,5.11,0.0009,0.09
+573,CHIAPAS,"Tapachula, Chis.",Resto de Agropecuarios,108.196,-3.54,5.59,0.0009,0.09
+574,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Frutas y Verduras,106.417,-2.37,-4.24,0.0009,0.09
+575,CHIHUAHUA,"Cd. Juárez, Chih.",Agropecuarios,114.745,-2.67,5.35,0.0009,0.09
+576,CHIHUAHUA,"Jiménez, Chih.",Otros servicios,108.182,0.77,3.25,0.0009,0.09
+577,COAHUILA,"Torreón, Coah.",Agropecuarios,110.96,-1.08,-0.76,0.0009,0.09
+578,COLIMA,"Colima, Col.",Vivienda,104.674,0.26,1.32,0.0009,0.09
+579,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Vivienda,103.524,0,2.32,0.0009,0.09
+580,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Agropecuarios,110.892,5.1,-2.93,0.0009,0.09
+581,GUANAJUATO,"León, Gto.",Educación,106.266,0,-2.24,0.0009,0.09
+582,GUANAJUATO,"León, Gto.",Resto de Agropecuarios,112.179,1.82,7.39,0.0009,0.09
+583,MICHOACAN,"Morelia, Mich.",Resto de Agropecuarios,109.852,0.45,3.94,0.0009,0.09
+584,MICHOACAN,"Jacona, Mich.",Frutas y Verduras,116.229,-1.38,-1.11,0.0009,0.09
+585,OAXACA,"Tehuantepec, Oax.",Energéticos y Tarifas Autorizadas por el Gobierno,114.757,2.79,4.86,0.0009,0.09
+586,PUEBLA,"Izúcar de Matamoros, Pue.",Vivienda,102.263,0,1.04,0.0009,0.09
+587,PUEBLA,"Izúcar de Matamoros, Pue.",Agropecuarios,115.074,0.75,0.86,0.0009,0.09
+588,PUEBLA,"Izúcar de Matamoros, Pue.",Energéticos,108.152,5.26,7.02,0.0009,0.09
+589,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Educación,110.631,0,1.96,0.0009,0.09
+590,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Frutas y Verduras,115.422,0.84,-0.31,0.0009,0.09
+591,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Resto de Agropecuarios,119.413,1.6,7.74,0.0009,0.09
+592,SINALOA,"Culiacán, Sin.",Frutas y Verduras,112.513,-1.58,2.84,0.0009,0.09
+593,SINALOA,"Culiacán, Sin.",Tarifas Autorizadas por Gobierno,110.772,1.91,1.7,0.0009,0.09
+594,SONORA,"Huatabampo, Son.",Energéticos y Tarifas Autorizadas por el Gobierno,128.429,2.44,1.06,0.0009,0.09
+595,VERACRUZ,"Coatzacoalcos, Ver.",Energéticos y Tarifas Autorizadas por el Gobierno,117.727,3.28,3.84,0.0009,0.09
+596,ZACATECAS,"Fresnillo, Zac.",Otros servicios,108.197,0.1,0.09,0.0009,0.09
+597,CHIAPAS,"Tapachula, Chis.",Frutas y Verduras,101.429,-6.02,-5.4,0.0008,0.08
+598,CHIHUAHUA,"Chihuahua, Chih.",Agropecuarios,114.989,-0.56,5.83,0.0008,0.08
+599,CHIHUAHUA,"Jiménez, Chih.",Vivienda,109.252,0,3.34,0.0008,0.08
+600,COAHUILA,"Monclova, Coah.",Alimentos,114.876,0.42,7.23,0.0008,0.08
+601,COAHUILA,"Monclova, Coah.",Mercancías no alimenticias,108.505,0.74,4.14,0.0008,0.08
+602,COLIMA,"Colima, Col.",Energéticos,106.592,4.04,-2.42,0.0008,0.08
+603,DURANGO,"Durango, Dgo.",Agropecuarios,113.608,-1.11,0.11,0.0008,0.08
+604,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Energéticos,109.088,6.21,6.41,0.0008,0.08
+605,GUANAJUATO,"León, Gto.",Frutas y Verduras,107.509,0.93,-8.16,0.0008,0.08
+606,GUANAJUATO,"Cortazar, Gto.",Tarifas Autorizadas por Gobierno,115.7,0.23,2.74,0.0008,0.08
+607,GUERRERO,"Iguala, Gro.",Resto de Agropecuarios,107.379,-1.79,3.33,0.0008,0.08
+608,GUERRERO,"Iguala, Gro.",Tarifas Autorizadas por Gobierno,100.929,0.02,0.03,0.0008,0.08
+609,HIDALGO,"Tulancingo, Hgo.",Alimentos,118.58,0.64,9.68,0.0008,0.08
+610,HIDALGO,"Pachuca, Hgo.",Frutas y Verduras,111.922,2.98,-8.64,0.0008,0.08
+611,HIDALGO,"Pachuca, Hgo.",Resto de Agropecuarios,116.766,1.98,12.17,0.0008,0.08
+612,JALISCO,"Tepatitlán, Jal.",Frutas y Verduras,121.16,1.98,6.1,0.0008,0.08
+613,MICHOACAN,"Morelia, Mich.",Frutas y Verduras,104.209,2.89,-7.32,0.0008,0.08
+614,MORELOS,"Cuernavaca, Mor.",Frutas y Verduras,107.067,0.52,-6.3,0.0008,0.08
+615,MORELOS,"Cuernavaca, Mor.",Resto de Agropecuarios,119.659,0.56,10.97,0.0008,0.08
+616,MORELOS,"Cuernavaca, Mor.",Tarifas Autorizadas por Gobierno,104.629,1.29,0.28,0.0008,0.08
+617,OAXACA,"Oaxaca, Oax.",Tarifas Autorizadas por Gobierno,109.772,0.01,1.5,0.0008,0.08
+618,QUERETARO,"Querétaro, Qro.",Frutas y Verduras,114.218,1.91,-5.59,0.0008,0.08
+619,QUINTANAROO,"Chetumal, Q. Roo.",Otros servicios,106.45,0.44,2.35,0.0008,0.08
+620,QUINTANAROO,"Cancún, Q. Roo.",Agropecuarios,106.66,-0.52,-1.99,0.0008,0.08
+621,SAN LUIS POTOSI,"San Luis Potosí, S.L.P.",Tarifas Autorizadas por Gobierno,110.336,0.4,1.89,0.0008,0.08
+622,SINALOA,"Culiacán, Sin.",Educación,107.34,0,-0.29,0.0008,0.08
+623,SONORA,"Huatabampo, Son.",Otros servicios,106.496,-0.16,0.9,0.0008,0.08
+624,SONORA,"Esperanza, Son.",Energéticos,139.785,1.34,1.04,0.0008,0.08
+625,TABASCO,"Villahermosa, Tab.",Tarifas Autorizadas por Gobierno,114.706,1.85,1.91,0.0008,0.08
+626,TAMAULIPAS,"Tampico, Tamps.",Educación,110.886,0,3.58,0.0008,0.08
+627,TAMAULIPAS,"Tampico, Tamps.",Resto de Agropecuarios,104.233,0.83,1.31,0.0008,0.08
+628,TAMAULIPAS,"Tampico, Tamps.",Tarifas Autorizadas por Gobierno,107.301,0.61,2.15,0.0008,0.08
+629,TLAXCALA,"Tlaxcala, Tlax.",Energéticos,108.488,4.68,6.6,0.0008,0.08
+630,VERACRUZ,"Córdoba, Ver.",Educación,108.764,0,0.4,0.0008,0.08
+631,VERACRUZ,"Coatzacoalcos, Ver.",Agropecuarios,113.092,0.81,2.91,0.0008,0.08
+632,ZACATECAS,"Fresnillo, Zac.",Energéticos y Tarifas Autorizadas por el Gobierno,100.021,0.93,-0.49,0.0008,0.08
+633,ZACATECAS,"Zacatecas, Zac.",Alimentos,114.484,0.24,5.32,0.0008,0.08
+634,ZACATECAS,"Zacatecas, Zac.",Otros servicios,108.191,-0.01,2.73,0.0008,0.08
+635,BAJA CALIFORNIA,"Tijuana, B.C.",Frutas y Verduras,118.43,-1.9,-1.84,0.0007,0.07
+636,CAMPECHE,"Campeche, Camp.",Energéticos,123.508,2.71,2.08,0.0007,0.07
+637,CHIAPAS,"Tapachula, Chis.",Energéticos,106.256,1.3,1.48,0.0007,0.07
+638,COAHUILA,"Saltillo, Coah.",Agropecuarios,112.119,0.55,3.05,0.0007,0.07
+639,COLIMA,"Colima, Col.",Agropecuarios,112.437,0.06,3.4,0.0007,0.07
+640,GUERRERO,"Acapulco, Gro.",Resto de Agropecuarios,116.166,-0.79,7.79,0.0007,0.07
+641,GUERRERO,"Iguala, Gro.",Frutas y Verduras,108.546,1.06,-7.24,0.0007,0.07
+642,HIDALGO,"Tulancingo, Hgo.",Mercancías no alimenticias,109.739,0.25,4.19,0.0007,0.07
+643,HIDALGO,"Pachuca, Hgo.",Tarifas Autorizadas por Gobierno,102.612,0.02,1,0.0007,0.07
+644,MICHOACAN,"Morelia, Mich.",Tarifas Autorizadas por Gobierno,111.072,0.12,0.45,0.0007,0.07
+645,NAYARIT,"Tepic, Nay.",Resto de Agropecuarios,110.749,0.55,4.65,0.0007,0.07
+646,OAXACA,"Tehuantepec, Oax.",Resto de Agropecuarios,115.55,0.84,5.15,0.0007,0.07
+647,QUERETARO,"Querétaro, Qro.",Educación,111.533,0,2.74,0.0007,0.07
+648,QUERETARO,"Querétaro, Qro.",Resto de Agropecuarios,116.415,0.53,7.96,0.0007,0.07
+649,QUERETARO,"Querétaro, Qro.",Tarifas Autorizadas por Gobierno,122.827,0.01,1.83,0.0007,0.07
+650,QUINTANAROO,"Chetumal, Q. Roo.",Vivienda,104.275,0,1.96,0.0007,0.07
+651,QUINTANAROO,"Cancún, Q. Roo.",Energéticos,123.538,2.94,2.47,0.0007,0.07
+652,SONORA,"Hermosillo, Son.",Resto de Agropecuarios,114.326,0.33,4.9,0.0007,0.07
+653,SONORA,"Huatabampo, Son.",Vivienda,102.973,0,0.82,0.0007,0.07
+654,SONORA,"Huatabampo, Son.",Energéticos,134.083,2.94,0.58,0.0007,0.07
+655,TABASCO,"Villahermosa, Tab.",Frutas y Verduras,122.172,-0.2,2.45,0.0007,0.07
+656,VERACRUZ,"Veracruz, Ver.",Resto de Agropecuarios,112.909,0.22,7.85,0.0007,0.07
+657,VERACRUZ,"Veracruz, Ver.",Energéticos,127.747,3,4.34,0.0007,0.07
+658,VERACRUZ,"San Andrés Tuxtla, Ver.",Resto de Agropecuarios,121.451,1.75,13.67,0.0007,0.07
+659,VERACRUZ,"San Andrés Tuxtla, Ver.",Energéticos y Tarifas Autorizadas por el Gobierno,113.331,2.46,5.28,0.0007,0.07
+660,ZACATECAS,"Fresnillo, Zac.",Agropecuarios,113.436,0.02,0.62,0.0007,0.07
+661,ZACATECAS,"Fresnillo, Zac.",Energéticos,98.046,0.97,-2.01,0.0007,0.07
+662,BAJA CALIFORNIA,"Mexicali, B.C.",Frutas y Verduras,112.351,-1.57,-5.24,0.0006,0.06
+663,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Agropecuarios,111.123,-0.73,2.97,0.0006,0.06
+664,CAMPECHE,"Campeche, Camp.",Resto de Agropecuarios,110.117,0.34,6.31,0.0006,0.06
+665,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Tarifas Autorizadas por Gobierno,111.191,0.4,9.31,0.0006,0.06
+666,CHIHUAHUA,"Cd. Juárez, Chih.",Tarifas Autorizadas por Gobierno,115.877,1.85,6.98,0.0006,0.06
+667,CHIHUAHUA,"Jiménez, Chih.",Agropecuarios,112.764,0.08,5.32,0.0006,0.06
+668,COAHUILA,"Monclova, Coah.",Otros servicios,107.058,-0.42,1.14,0.0006,0.06
+669,COAHUILA,"Monclova, Coah.",Energéticos y Tarifas Autorizadas por el Gobierno,111.008,2.03,0.45,0.0006,0.06
+670,COAHUILA,"Cd. Acuña, Coah.",Agropecuarios,108.212,-0.24,-1.19,0.0006,0.06
+671,GUERRERO,"Acapulco, Gro.",Energéticos,110.031,2.09,1.37,0.0006,0.06
+672,GUERRERO,"Acapulco, Gro.",Tarifas Autorizadas por Gobierno,111.865,0.01,1.21,0.0006,0.06
+673,GUERRERO,"Iguala, Gro.",Energéticos,118.365,3.16,7.3,0.0006,0.06
+674,HIDALGO,"Tulancingo, Hgo.",Vivienda,104.99,0,2.03,0.0006,0.06
+675,HIDALGO,"Pachuca, Hgo.",Educación,106.618,0,-0.32,0.0006,0.06
+676,MORELOS,"Cuernavaca, Mor.",Educación,107.264,0,-0.22,0.0006,0.06
+677,OAXACA,"Oaxaca, Oax.",Educación,106.647,0,0.13,0.0006,0.06
+678,OAXACA,"Tehuantepec, Oax.",Energéticos,118.671,4.25,7.43,0.0006,0.06
+679,QUINTANAROO,"Chetumal, Q. Roo.",Energéticos y Tarifas Autorizadas por el Gobierno,119.912,1,-0.01,0.0006,0.06
+680,QUINTANAROO,"Cancún, Q. Roo.",Tarifas Autorizadas por Gobierno,112.016,0.02,1.14,0.0006,0.06
+681,TAMAULIPAS,"Matamoros, Tamps.",Resto de Agropecuarios,110.376,0.27,2.56,0.0006,0.06
+682,TLAXCALA,"Tlaxcala, Tlax.",Frutas y Verduras,104.359,1.84,-10,0.0006,0.06
+683,VERACRUZ,"Coatzacoalcos, Ver.",Energéticos,124.724,4.86,5.61,0.0006,0.06
+684,YUCATAN,"Mérida, Yuc.",Tarifas Autorizadas por Gobierno,101.607,-0.19,0.78,0.0006,0.06
+685,ZACATECAS,"Fresnillo, Zac.",Vivienda,102.27,0.19,1.71,0.0006,0.06
+686,ZACATECAS,"Zacatecas, Zac.",Vivienda,103.333,0.13,0.82,0.0006,0.06
+687,ZACATECAS,"Zacatecas, Zac.",Energéticos y Tarifas Autorizadas por el Gobierno,100.796,2.15,-0.81,0.0006,0.06
+688,AGUASCALIENTES,"Aguascalientes, Ags.",Tarifas Autorizadas por Gobierno,118.591,0.31,1.7,0.0005,0.05
+689,BAJA CALIFORNIA,"Mexicali, B.C.",Educación,109.699,0,1.74,0.0005,0.05
+690,BAJA CALIFORNIA,"Mexicali, B.C.",Tarifas Autorizadas por Gobierno,108.806,0.37,-1.42,0.0005,0.05
+691,BAJA CALIFORNIA,"Tijuana, B.C.",Educación,110.451,0,2.39,0.0005,0.05
+692,CHIHUAHUA,"Cd. Juárez, Chih.",Resto de Agropecuarios,111.478,-3.33,2.71,0.0005,0.05
+693,CHIHUAHUA,"Chihuahua, Chih.",Educación,112.497,0,4.27,0.0005,0.05
+694,CHIHUAHUA,"Chihuahua, Chih.",Resto de Agropecuarios,112.849,-0.08,6.72,0.0005,0.05
+695,COAHUILA,"Torreón, Coah.",Educación,111.674,0,5.21,0.0005,0.05
+696,COAHUILA,"Torreón, Coah.",Resto de Agropecuarios,111.53,-2.73,3.2,0.0005,0.05
+697,COAHUILA,"Torreón, Coah.",Tarifas Autorizadas por Gobierno,117.585,1.13,1.18,0.0005,0.05
+698,COAHUILA,"Monclova, Coah.",Vivienda,106.551,0.3,2.35,0.0005,0.05
+699,COAHUILA,"Monclova, Coah.",Energéticos,112.13,2.26,0.23,0.0005,0.05
+700,COAHUILA,"Saltillo, Coah.",Tarifas Autorizadas por Gobierno,115.314,-0.62,1.18,0.0005,0.05
+701,DURANGO,"Durango, Dgo.",Resto de Agropecuarios,114.956,-0.97,1.23,0.0005,0.05
+702,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Frutas y Verduras,103.461,8.12,-15.05,0.0005,0.05
+703,HIDALGO,"Tulancingo, Hgo.",Otros servicios,108.633,-0.01,2.83,0.0005,0.05
+704,HIDALGO,"Tulancingo, Hgo.",Agropecuarios,108.146,1.28,1.88,0.0005,0.05
+705,HIDALGO,"Tulancingo, Hgo.",Energéticos y Tarifas Autorizadas por el Gobierno,102.606,1.9,2.28,0.0005,0.05
+706,JALISCO,"Tepatitlán, Jal.",Educación,113.772,0,4.55,0.0005,0.05
+707,MICHOACAN,"Jacona, Mich.",Educación,111.808,0,7.18,0.0005,0.05
+708,MICHOACAN,"Jacona, Mich.",Tarifas Autorizadas por Gobierno,109.337,0.16,2.35,0.0005,0.05
+709,OAXACA,"Tehuantepec, Oax.",Frutas y Verduras,124.402,-0.08,8.5,0.0005,0.05
+710,PUEBLA,"Izúcar de Matamoros, Pue.",Frutas y Verduras,111.328,1.89,-3.93,0.0005,0.05
+711,QUINTANAROO,"Cancún, Q. Roo.",Resto de Agropecuarios,108.364,0.47,4.18,0.0005,0.05
+712,SONORA,"Hermosillo, Son.",Educación,108.049,0,2.9,0.0005,0.05
+713,SONORA,"Hermosillo, Son.",Frutas y Verduras,105.222,0.55,-2.37,0.0005,0.05
+714,SONORA,"Hermosillo, Son.",Tarifas Autorizadas por Gobierno,102.242,0.22,0.84,0.0005,0.05
+715,SONORA,"Huatabampo, Son.",Agropecuarios,112.599,0.84,4.3,0.0005,0.05
+716,SONORA,"Esperanza, Son.",Agropecuarios,111.057,1.15,6.51,0.0005,0.05
+717,TABASCO,"Villahermosa, Tab.",Educación,110.837,0,2.2,0.0005,0.05
+718,TAMAULIPAS,"Tampico, Tamps.",Frutas y Verduras,117.092,2.44,15.57,0.0005,0.05
+719,TAMAULIPAS,"Matamoros, Tamps.",Tarifas Autorizadas por Gobierno,111.197,2.58,1.43,0.0005,0.05
+720,TLAXCALA,"Tlaxcala, Tlax.",Resto de Agropecuarios,118.641,-0.49,10.31,0.0005,0.05
+721,TLAXCALA,"Tlaxcala, Tlax.",Tarifas Autorizadas por Gobierno,102.737,0.01,-0.57,0.0005,0.05
+722,VERACRUZ,"Veracruz, Ver.",Frutas y Verduras,104.277,-3.06,-12.38,0.0005,0.05
+723,VERACRUZ,"Veracruz, Ver.",Tarifas Autorizadas por Gobierno,108.238,0.08,2.07,0.0005,0.05
+724,VERACRUZ,"San Andrés Tuxtla, Ver.",Energéticos,117.039,3.67,7.46,0.0005,0.05
+725,VERACRUZ,"Coatzacoalcos, Ver.",Resto de Agropecuarios,113.993,0.77,7.45,0.0005,0.05
+726,YUCATAN,"Mérida, Yuc.",Educación,111.236,0,-0.96,0.0005,0.05
+727,YUCATAN,"Mérida, Yuc.",Frutas y Verduras,108.235,-7.81,-5.64,0.0005,0.05
+728,ZACATECAS,"Zacatecas, Zac.",Energéticos,97.212,2.64,-1.79,0.0005,0.05
+729,AGUASCALIENTES,"Aguascalientes, Ags.",Educación,114.876,0,3.6,0.0004,0.04
+730,AGUASCALIENTES,"Aguascalientes, Ags.",Frutas y Verduras,110.099,2.69,-4.59,0.0004,0.04
+731,AGUASCALIENTES,"Aguascalientes, Ags.",Resto de Agropecuarios,120.544,1.17,9.54,0.0004,0.04
+732,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Resto de Agropecuarios,111.022,0.15,4.61,0.0004,0.04
+733,CHIAPAS,"Tuxtla Gutiérrez, Chis.",Educación,108.834,0,2.63,0.0004,0.04
+734,CHIHUAHUA,"Cd. Juárez, Chih.",Educación,109.567,0,2.46,0.0004,0.04
+735,CHIHUAHUA,"Cd. Juárez, Chih.",Frutas y Verduras,119.154,-1.82,8.87,0.0004,0.04
+736,COAHUILA,"Torreón, Coah.",Frutas y Verduras,110.251,1.07,-5.33,0.0004,0.04
+737,COAHUILA,"Saltillo, Coah.",Resto de Agropecuarios,113.983,0.8,4.75,0.0004,0.04
+738,COLIMA,"Colima, Col.",Resto de Agropecuarios,110.07,0.07,5.45,0.0004,0.04
+739,COLIMA,"Colima, Col.",Tarifas Autorizadas por Gobierno,104.837,0.01,1.21,0.0004,0.04
+740,DURANGO,"Durango, Dgo.",Frutas y Verduras,111.954,-1.29,-1.26,0.0004,0.04
+741,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Resto de Agropecuarios,119.869,2.13,14.02,0.0004,0.04
+742,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Tarifas Autorizadas por Gobierno,117.547,0.02,0.54,0.0004,0.04
+743,GUERRERO,"Acapulco, Gro.",Frutas y Verduras,105.656,-0.63,-10.86,0.0004,0.04
+744,MICHOACAN,"Morelia, Mich.",Educación,110.824,0,2.08,0.0004,0.04
+745,NAYARIT,"Tepic, Nay.",Frutas y Verduras,115.673,0.44,0.72,0.0004,0.04
+746,PUEBLA,"Izúcar de Matamoros, Pue.",Resto de Agropecuarios,120.256,-0.67,7.73,0.0004,0.04
+747,QUINTANAROO,"Chetumal, Q. Roo.",Agropecuarios,110.264,-1.51,3.74,0.0004,0.04
+748,QUINTANAROO,"Chetumal, Q. Roo.",Energéticos,118.16,1.44,-1.13,0.0004,0.04
+749,TAMAULIPAS,"Matamoros, Tamps.",Educación,106.728,0,2.41,0.0004,0.04
+750,TAMAULIPAS,"Matamoros, Tamps.",Frutas y Verduras,114.09,0.44,2.8,0.0004,0.04
+751,VERACRUZ,"Veracruz, Ver.",Educación,110.133,0,1.73,0.0004,0.04
+752,VERACRUZ,"San Andrés Tuxtla, Ver.",Frutas y Verduras,112.807,2.99,-5.99,0.0004,0.04
+753,ZACATECAS,"Fresnillo, Zac.",Frutas y Verduras,106.213,1.08,-4.44,0.0004,0.04
+754,ZACATECAS,"Zacatecas, Zac.",Agropecuarios,112.642,0,3.16,0.0004,0.04
+755,CAMPECHE,"Campeche, Camp.",Frutas y Verduras,100.006,-5.15,-10.29,0.0003,0.03
+756,CAMPECHE,"Campeche, Camp.",Tarifas Autorizadas por Gobierno,100.597,0.02,0.19,0.0003,0.03
+757,CHIAPAS,"Tapachula, Chis.",Tarifas Autorizadas por Gobierno,113.33,0.04,8.53,0.0003,0.03
+758,CHIHUAHUA,"Chihuahua, Chih.",Frutas y Verduras,118.298,-1.28,4.56,0.0003,0.03
+759,CHIHUAHUA,"Chihuahua, Chih.",Tarifas Autorizadas por Gobierno,115.943,1.55,3.98,0.0003,0.03
+760,CHIHUAHUA,"Jiménez, Chih.",Frutas y Verduras,112.008,-0.04,2.4,0.0003,0.03
+761,CHIHUAHUA,"Jiménez, Chih.",Resto de Agropecuarios,113.378,0.17,7.78,0.0003,0.03
+762,COAHUILA,"Monclova, Coah.",Agropecuarios,111.169,-0.17,1.65,0.0003,0.03
+763,COAHUILA,"Cd. Acuña, Coah.",Educación,111.142,0,4.03,0.0003,0.03
+764,COAHUILA,"Cd. Acuña, Coah.",Frutas y Verduras,106.913,1.68,-3.07,0.0003,0.03
+765,COAHUILA,"Cd. Acuña, Coah.",Resto de Agropecuarios,109.19,-1.61,0.24,0.0003,0.03
+766,COAHUILA,"Cd. Acuña, Coah.",Tarifas Autorizadas por Gobierno,110.408,0.64,1.42,0.0003,0.03
+767,COAHUILA,"Saltillo, Coah.",Educación,107.814,0,1.35,0.0003,0.03
+768,COAHUILA,"Saltillo, Coah.",Frutas y Verduras,109.042,0.14,0.25,0.0003,0.03
+769,COLIMA,"Colima, Col.",Frutas y Verduras,116.436,0.04,0.29,0.0003,0.03
+770,HIDALGO,"Tulancingo, Hgo.",Resto de Agropecuarios,112.613,1.92,9.05,0.0003,0.03
+771,HIDALGO,"Tulancingo, Hgo.",Energéticos,102.663,3.11,3.68,0.0003,0.03
+772,JALISCO,"Tepatitlán, Jal.",Tarifas Autorizadas por Gobierno,115.582,1.08,1.13,0.0003,0.03
+773,NAYARIT,"Tepic, Nay.",Tarifas Autorizadas por Gobierno,110.575,0.6,0.64,0.0003,0.03
+774,OAXACA,"Tehuantepec, Oax.",Tarifas Autorizadas por Gobierno,107.717,0,0.11,0.0003,0.03
+775,PUEBLA,"Izúcar de Matamoros, Pue.",Educación,106.776,0,-1.53,0.0003,0.03
+776,PUEBLA,"Izúcar de Matamoros, Pue.",Tarifas Autorizadas por Gobierno,126.153,0,4.05,0.0003,0.03
+777,QUINTANAROO,"Chetumal, Q. Roo.",Resto de Agropecuarios,112.31,0.72,9.42,0.0003,0.03
+778,QUINTANAROO,"Cancún, Q. Roo.",Educación,103.346,0,-5.1,0.0003,0.03
+779,QUINTANAROO,"Cancún, Q. Roo.",Frutas y Verduras,103.591,-2.32,-11.82,0.0003,0.03
+780,SONORA,"Huatabampo, Son.",Resto de Agropecuarios,114.84,1.71,5.18,0.0003,0.03
+781,SONORA,"Esperanza, Son.",Educación,111.095,0,7.11,0.0003,0.03
+782,SONORA,"Esperanza, Son.",Resto de Agropecuarios,112.143,-0.08,10.59,0.0003,0.03
+783,TLAXCALA,"Tlaxcala, Tlax.",Educación,103.379,0.31,-5.26,0.0003,0.03
+784,VERACRUZ,"San Andrés Tuxtla, Ver.",Tarifas Autorizadas por Gobierno,106.318,0.02,1.03,0.0003,0.03
+785,VERACRUZ,"Coatzacoalcos, Ver.",Frutas y Verduras,111.493,0.86,-4.42,0.0003,0.03
+786,VERACRUZ,"Coatzacoalcos, Ver.",Tarifas Autorizadas por Gobierno,104.954,0.01,0.21,0.0003,0.03
+787,ZACATECAS,"Fresnillo, Zac.",Resto de Agropecuarios,121.377,-0.97,6.02,0.0003,0.03
+788,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Educación,108.157,0,0.82,0.0002,0.02
+789,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Frutas y Verduras,111.286,-2.11,0.42,0.0002,0.02
+790,CAMPECHE,"Campeche, Camp.",Educación,104.016,0,-1.71,0.0002,0.02
+791,CHIAPAS,"Tapachula, Chis.",Educación,108.074,0,2.21,0.0002,0.02
+792,CHIHUAHUA,"Jiménez, Chih.",Tarifas Autorizadas por Gobierno,134.022,0.79,5.35,0.0002,0.02
+793,COAHUILA,"Monclova, Coah.",Resto de Agropecuarios,111.294,1.77,5.79,0.0002,0.02
+794,COAHUILA,"Monclova, Coah.",Tarifas Autorizadas por Gobierno,107.865,1.34,1.07,0.0002,0.02
+795,COLIMA,"Colima, Col.",Educación,111.422,0,3.4,0.0002,0.02
+796,DURANGO,"Durango, Dgo.",Educación,111.255,0,2.37,0.0002,0.02
+797,DURANGO,"Durango, Dgo.",Tarifas Autorizadas por Gobierno,112.441,0.03,0.56,0.0002,0.02
+798,ESTADO DE MEXICO,"Atlacomulco, Edo. de Méx.",Educación,107.934,0,0.5,0.0002,0.02
+799,GUERRERO,"Acapulco, Gro.",Educación,110.192,0,3.18,0.0002,0.02
+800,GUERRERO,"Iguala, Gro.",Educación,97.047,0,-6.51,0.0002,0.02
+801,HIDALGO,"Tulancingo, Hgo.",Frutas y Verduras,103.652,0.59,-4.95,0.0002,0.02
+802,HIDALGO,"Tulancingo, Hgo.",Tarifas Autorizadas por Gobierno,102.529,0.3,0.44,0.0002,0.02
+803,NAYARIT,"Tepic, Nay.",Educación,111.235,0,1.46,0.0002,0.02
+804,QUINTANAROO,"Chetumal, Q. Roo.",Frutas y Verduras,106.792,-5.25,-5.06,0.0002,0.02
+805,QUINTANAROO,"Chetumal, Q. Roo.",Tarifas Autorizadas por Gobierno,124.059,0.04,2.62,0.0002,0.02
+806,SONORA,"Huatabampo, Son.",Frutas y Verduras,109.574,-0.37,3.07,0.0002,0.02
+807,SONORA,"Huatabampo, Son.",Tarifas Autorizadas por Gobierno,108.743,0.3,3.2,0.0002,0.02
+808,SONORA,"Esperanza, Son.",Frutas y Verduras,109.711,2.74,1.76,0.0002,0.02
+809,SONORA,"Esperanza, Son.",Tarifas Autorizadas por Gobierno,104.705,0.21,2.16,0.0002,0.02
+810,VERACRUZ,"San Andrés Tuxtla, Ver.",Educación,107.076,0,0.36,0.0002,0.02
+811,VERACRUZ,"Coatzacoalcos, Ver.",Educación,106.008,0,-0.52,0.0002,0.02
+812,ZACATECAS,"Zacatecas, Zac.",Frutas y Verduras,109.073,-0.77,-2.34,0.0002,0.02
+813,ZACATECAS,"Zacatecas, Zac.",Resto de Agropecuarios,115.61,0.6,7.93,0.0002,0.02
+814,BAJA CALIFORNIA SUR,"La Paz, B.C.S.",Tarifas Autorizadas por Gobierno,100.081,0.2,-0.5,0.0001,0.01
+815,CHIHUAHUA,"Jiménez, Chih.",Educación,106.04,0,-0.33,0.0001,0.01
+816,COAHUILA,"Monclova, Coah.",Educación,110.773,0,4.3,0.0001,0.01
+817,COAHUILA,"Monclova, Coah.",Frutas y Verduras,110.975,-3.04,-4.18,0.0001,0.01
+818,HIDALGO,"Tulancingo, Hgo.",Educación,108.759,0,2.55,0.0001,0.01
+819,OAXACA,"Tehuantepec, Oax.",Educación,110.621,0,2.53,0.0001,0.01
+820,QUINTANAROO,"Chetumal, Q. Roo.",Educación,108.997,0,1.51,0.0001,0.01
+821,SONORA,"Huatabampo, Son.",Educación,108.971,0,5.09,0.0001,0.01
+822,ZACATECAS,"Fresnillo, Zac.",Educación,110.197,0,2.61,0.0001,0.01
+823,ZACATECAS,"Fresnillo, Zac.",Tarifas Autorizadas por Gobierno,112.48,0.71,8.81,0.0001,0.01
+824,ZACATECAS,"Zacatecas, Zac.",Educación,112.368,0,3.73,0.0001,0.01
+825,ZACATECAS,"Zacatecas, Zac.",Tarifas Autorizadas por Gobierno,115.104,0.55,2.65,0.0001,0.01
