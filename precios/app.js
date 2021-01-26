@@ -53,7 +53,7 @@ dataArray = []
 // (1) Variables globales para determinar que mostrar y
 //     poder obtener los datos del select
 region = 'todas'
-regionSelect = d3.select('#Ciudad')
+regionSelect = d3.select('#AP16')
 
 metrica = 'indice'
 metricaSelect = d3.select('#metrica')
@@ -65,7 +65,7 @@ function render(data) {
   // function(d, i) { return d }
   // (d, i) => d
   bars = g.selectAll('rect')
-            .data(data, d => d.AP16)
+            .data(data, d => d.Estado)
 
   bars.enter()
       .append('rect')
@@ -73,7 +73,7 @@ function render(data) {
         .style('height', '0px')
         .style('y', `${y(0)}px`)
         .style('fill', '#000')
-        .style('x', d => x(d.AP16) + 'px')
+        .style('x', d => x(d.Estado) + 'px')
       .merge(bars)
         .transition()
         // https://bl.ocks.org/d3noob/1ea51d03775b9650e8dfd03474e202fe
@@ -149,7 +149,7 @@ d3.csv('indices.csv')
 function frame() {
   dataframe = dataArray
   if (region != 'todas') {
-    dataframe = d3.filter(dataArray, d => d.Ciudad == Ciudad)
+    dataframe = d3.filter(dataArray, d => d.AP16 == AP16)
   }
 
   dataframe.sort((a, b) => {
