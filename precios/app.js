@@ -52,8 +52,8 @@ dataArray = []
 
 // (1) Variables globales para determinar que mostrar y
 //     poder obtener los datos del select
-ap16 = 'todas'
-ap16Select = d3.select('#ap16')
+ap = 'todas'
+apSelect = d3.select('#ap')
 
 metrica = 'indice'
 metricaSelect = d3.select('#metrica')
@@ -124,17 +124,17 @@ d3.csv('indices.csv')
 
   dataArray = data
 
-  color.domain(data.map(d => d.ap16))
+  color.domain(data.map(d => d.ap))
 
   // <select>
   //   <option value="x">despliega</option>
   // </select>
-  regionSelect.append('option')
+  apSelect.append('option')
               .attr('value', 'todas')
               .text('Todas')
   color.domain().forEach(d => {
     console.log(d)
-    regionSelect.append('option')
+    apSelect.append('option')
                 .attr('value', d)
                 .text(d)
   })
@@ -148,8 +148,8 @@ d3.csv('indices.csv')
 
 function frame() {
   dataframe = dataArray
-  if (region != 'todas') {
-    dataframe = d3.filter(dataArray, d => d.ap16 == ap16)
+  if (ap != 'todas') {
+    dataframe = d3.filter(dataArray, d => d.ap == ap)
   }
 
   dataframe.sort((a, b) => {
@@ -171,8 +171,8 @@ function frame() {
   render(dataframe)
 }
 
-regionSelect.on('change', () => {
-  region = regionSelect.node().value
+apSelect.on('change', () => {
+  ap = apSelect.node().value
   frame()
 })
 
