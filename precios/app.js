@@ -33,7 +33,7 @@ x = d3.scaleBand()
 color = d3.scaleOrdinal()
           // .range(['red', 'green', 'blue', 'yellow'])
           // https://bl.ocks.org/pstuffa/3393ff2711a53975040077b7453781a9
-          .range(d3.schemeCategory20b)
+          .range(d3.schemeDark2)
 
 xAxisGroup = g.append('g')
               .attr('transform', `translate(0, ${ alto })`)
@@ -45,17 +45,17 @@ titulo = g.append('text')
           .attr('x', `${ancho / 2}px`)
           .attr('y', '-5px')
           .attr('text-anchor', 'middle')
-          .text('Indicadores del Indice Nacional de Precios al Consumidor')
+          .text('Los Edificios Más Grandes del Mundo')
           .attr('class', 'titulo-grafica')
 
 dataArray = []
 
 // (1) Variables globales para determinar que mostrar y
 //     poder obtener los datos del select
-ap = 'Subyacente'
-apSelect = d3.select('#ap')
+region = 'todas'
+regionSelect = d3.select('#region')
 
-metrica = 'indice'
+metrica = 'oficial'
 metricaSelect = d3.select('#metrica')
 
 ascendente = false
@@ -65,7 +65,7 @@ function render(data) {
   // function(d, i) { return d }
   // (d, i) => d
   bars = g.selectAll('rect')
-            .data(data, d => d.estado)
+            .data(data, d => d.edificio)
 
   bars.enter()
       .append('rect')
@@ -73,16 +73,16 @@ function render(data) {
         .style('height', '0px')
         .style('y', `${y(0)}px`)
         .style('fill', '#000')
-        .style('x', d => x(d.estado) + 'px')
+        .style('x', d => x(d.edificio) + 'px')
       .merge(bars)
         .transition()
         // https://bl.ocks.org/d3noob/1ea51d03775b9650e8dfd03474e202fe
         // .ease(d3.easeElastic)
         .duration(2000)
-          .style('x', d => x(d.estado) + 'px')
+          .style('x', d => x(d.edificio) + 'px')
           .style('y', d => (y(d[metrica])) + 'px')
           .style('height', d => (alto - y(d[metrica])) + 'px')
-          .style('fill', d => color(d.ap))
+          .style('fill', d => color(d.region))
           .style('width', d => `${x.bandwidth()}px`)
 
   bars.exit()
@@ -96,7 +96,7 @@ function render(data) {
 
   yAxisCall = d3.axisLeft(y)
                 .ticks(3)
-                .tickFormat(d => d + ((metrica == 'indice') ? 'm.' : ''))
+                .tickFormat(d => d + ((metrica == 'oficial') ? 'm.' : ''))
   yAxisGroup.transition()
             .duration(2000)
             .call(yAxisCall)
@@ -116,25 +116,27 @@ function render(data) {
 d3.csv('indices.csv')
 .then(function(data) {
   data.forEach(d => {
-    d.indice = +d.indice
-    d.variacion= +d.variacion
-    d.variacion_anual = +d.variacion_anual
-    d.peso_100 = +d.peso_100
+    d.oficial = +d.oficial
+    d.ano = +d.ano
+    d.antena = +d.antena
+    d.piso = +d.piso
+    d.ultimopiso = +d.ultimopiso
+    d.puesto = +d.puesto
   })
 
   dataArray = data
 
-  color.domain(data.map(d => d.ap))
+  color.domain(data.map(d => d.region))
 
   // <select>
   //   <option value="x">despliega</option>
   // </select>
-  apSelect.append('option')
-              .attr('value', 'Subyacente')
-              .text('Subyacente')
+  regionSelect.append('option')
+              .attr('value', 'todas')
+              .text('Todas')
   color.domain().forEach(d => {
     console.log(d)
-    apSelect.append('option')
+    regionSelect.append('option')
                 .attr('value', d)
                 .text(d)
   })
@@ -148,8 +150,8 @@ d3.csv('indices.csv')
 
 function frame() {
   dataframe = dataArray
-  if (ap != 'Subyacente') {
-    dataframe = d3.filter(dataArray, d => d.ap == ap)
+  if (region != 'todas') {
+    dataframe = d3.filter(dataArray, d => d.region == region)
   }
 
   dataframe.sort((a, b) => {
@@ -160,19 +162,19 @@ function frame() {
     // return ascendente ? a[metrica] - b[metrica] : b[metrica] - a[metrica]
   })
 
-  // Calcular el mayor índice en
-  // los datos (columna "indice")
+  // Calcular la altura más alta dentro de
+  // los datos (columna "oficial")
   maxy = d3.max(dataframe, d => d[metrica])
-  // Creamos una función para calcular el indice
+  // Creamos una función para calcular la altura
   // de las barras y que quepan en nuestro canvas
   y.domain([0, maxy])
-  x.domain(dataframe.map(d => d.estado))
+  x.domain(dataframe.map(d => d.edificio))
 
   render(dataframe)
 }
 
-apSelect.on('change', () => {
-  ap = apSelect.node().value
+regionSelect.on('change', () => {
+  region = regionSelect.node().value
   frame()
 })
 
