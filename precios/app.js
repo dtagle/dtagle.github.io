@@ -113,7 +113,7 @@ function render(data) {
 }
 
 // IV. Carga de datos
-d3.csv('edificios.csv')
+d3.csv('indices.csv')
 .then(function(data) {
   data.forEach(d => {
     d.oficial = +d.oficial
