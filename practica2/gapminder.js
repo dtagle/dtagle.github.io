@@ -151,7 +151,7 @@ d3.csv('gapminder.csv').then((data) => {
   // Leyenda
   g.append('rect')
     .attr('x', ancho - 210)
-    .attr('y', alto - 160)
+    .attr('y', alto )
     .attr('width', 200)
     .attr('height', 150)
     .attr('stroke', 'black')
