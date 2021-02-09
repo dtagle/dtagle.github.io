@@ -174,7 +174,7 @@ d3.csv('gapminder.csv').then((data) => {
 
 
   frame()
-  interval = d3.interval(() => delta(1), 300)
+  interval = d3.interval(() => delta(1), 600)
 })
 
 function frame() {
@@ -207,14 +207,14 @@ function render(data) {
       .attr('stroke', '#333333')
       .attr('fill-opacity', 0.75)
     .merge(p)
-      .transition().duration(300)
+      .transition().duration(600)
       .attr('cx', d => x(d.income))
       .attr('cy', d => y(d.life_exp))
       .attr('r', d => r(d.population))
       .attr('fill', d => color(d.continent))
 
   p.exit()
-    .transition().duration(300)
+    .transition().duration(600)
     .attr('r', 0)
     .attr('fill', '#ff0000')
     .remove()
@@ -256,7 +256,7 @@ botonPausa.on('click', () => {
       .classed('btn-danger', true)
       .classed('btn-success', false)
       .html('<i class="fas fa-pause-circle"></i>')
-      interval = d3.interval(() => delta(1), 300)
+      interval = d3.interval(() => delta(1), 600)
   } else {
     botonPausa
       .classed('btn-danger', false)
@@ -277,5 +277,5 @@ slider.on('mousedown', () => {
 })
 
 slider.on('mouseup', () => {
-  if (corriendo) interval = d3.interval(() => delta(1), 300)
+  if (corriendo) interval = d3.interval(() => delta(1), 600)
 })
