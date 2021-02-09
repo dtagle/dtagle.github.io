@@ -153,14 +153,14 @@ d3.csv('gapminder.csv').then((data) => {
     .attr('x', ancho - 210)
     .attr('y', alto - 560 )
     .attr('width', 200)
-    .attr('height', 150)
+    .attr('height', 80)
     .attr('stroke', 'black')
     .attr('fill', '#dedede')
 
   color.domain().forEach((d, i) => {
     g.append('rect')
       .attr('x', ancho - 200)
-      .attr('y', alto - 150 + i*35)
+      .attr('y', alto - 550 + i*35)
       .attr('width', 20)
       .attr('height', 20)
       .attr('fill', color(d))
