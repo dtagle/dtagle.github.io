@@ -56,7 +56,7 @@ x = d3.scaleLog().range([0, ancho])
 y = d3.scaleLinear().range([alto, 0])
 r = d3.scaleLinear().range([10, 100])
 
-color = d3.scaleOrdinal().range(['#f94144', '#f8961e', '#90be6d', '#577590'])
+color = d3.scaleOrdinal().range(['#cc2a14', '#1a7a3d', '#90be6d', '#577590'])
 
 // Variables Globales
 datos = []
